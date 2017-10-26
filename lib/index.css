@@ -1,0 +1,13 @@
+@import './components/App/App.css';
+@import './components/Character/Character.css';
+@import './components/CharacterRoom/CharacterRoom.css';
+@import './components/Classroom/Classroom.css';
+@import './components/Header/Header.css';
+@import './components/Student/Student.css';
+
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
