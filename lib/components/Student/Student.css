@@ -1,9 +1,3 @@
-.student-card {
-  width: 200px;
+.character-traits-ctnr {
   display: flex;
-  flex-direction: column;
-  margin-top: 250px;
-  padding: 10px;
-  box-shadow: 5px 10px 10px #888888;
-  background-color: white;
-  border-radius: 20%; }
+  justify-content: space-around; }
