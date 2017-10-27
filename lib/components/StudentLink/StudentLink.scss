@@ -1,0 +1,11 @@
+.student-card {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  // justify-content: space-around;
+  margin-top: 250px;
+  padding: 10px;
+  box-shadow: 5px 10px 10px #888888;
+  background-color: white;
+  border-radius: 20%;
+}
