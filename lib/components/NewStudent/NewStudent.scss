@@ -18,7 +18,7 @@
 
 .create-new-student {
   text-align: center;
-  color: #D23321;
+  color: #E65C4F;
 
 }
 
@@ -37,11 +37,11 @@ input {
 }
 input:focus {
   outline: none;
-  border-bottom: 2px solid #D23321;
+  border-bottom: 2px solid #E65C4F;
 }
 
 .form-button {
-  background-color: #D23321;
+  background-color: #E65C4F;
   border: none;
   border-radius: 10px;
   color: #fff;
@@ -53,16 +53,16 @@ input:focus {
 }
 
 .form-button:hover {
-  background-color: #aa2f1e;
+  background-color: red;
 }
 
 .form-button:disabled {
   background-color: #bdbdbd;
 }
-
-.heading {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
+//
+// .heading {
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   flex-direction: column;
+// }
