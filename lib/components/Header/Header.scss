@@ -35,8 +35,12 @@ h1 {
 
 .header-home {
   display: flex;
+  // flex-direction: column;
   justify-content: center;
   margin-right: 75px;
+}
+
+.character-class-link {
 }
 
 .character-link,
