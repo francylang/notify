@@ -6,8 +6,8 @@
   "scripts": {
     "build-css": "node-sass-chokidar --include-path ./lib --include-path ./node_modules lib/ -o lib/",
     "watch-css": "npm run build-css && node-sass-chokidar --include-path ./lib --include-path ./node_modules lib/ -o lib/ --watch --recursive",
-    "start": "webpack-dev-server",
-    "build": "webpack --config webpack.config.js",
+    "start": "webpack-dev-server && npm-run-all -p watch-css",
+    "build": "webpack --config webpack.config.js && npm run build-css",
     "test": "jest"
   },
   "repository": {
