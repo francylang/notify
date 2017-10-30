@@ -41,6 +41,9 @@ h1 {
 }
 
 .character-class-link {
+  display: flex;
+  flex-direction: row;
+
 }
 
 .character-link,
@@ -49,8 +52,9 @@ h1 {
   align-items: center;
   justify-content: center;
   color: #F4F4F4;
+  font-size: 18px;
   text-decoration: none;
-  padding: 5px 20px;
+  padding: 15px 30px;
   margin: 0 10px;
   border: 1px solid #F4F4F4;
   border-radius: 10px;

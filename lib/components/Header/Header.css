@@ -30,14 +30,19 @@ h1 {
   justify-content: center;
   margin-right: 75px; }
 
+.character-class-link {
+  display: flex;
+  flex-direction: row; }
+
 .character-link,
 .new-student-link {
   display: flex;
   align-items: center;
   justify-content: center;
   color: #F4F4F4;
+  font-size: 18px;
   text-decoration: none;
-  padding: 5px 20px;
+  padding: 15px 30px;
   margin: 0 10px;
   border: 1px solid #F4F4F4;
   border-radius: 10px;

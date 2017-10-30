@@ -1,12 +1,28 @@
 .student-card {
-  width: 200px;
+  align-items: center;
+  text-align: center;
+  width: 130px;
+  position: relative;
   display: flex;
   justify-content: center;
   flex-direction: column;
-  margin-top: 250px;
-  padding: 10px;
-  box-shadow: 2px 4px 43px #888888;
+  margin: 10px;
+  margin-bottom: 40px;
+  padding: 65px;
+  box-shadow: 2px 4px 12px #888888;
   border-radius: 20%; }
 
 .student-name {
-  text-decoration: none; }
+  text-decoration: none;
+  font-size: 40px;
+  color: gray; }
+
+.delete-student-btn {
+  color: gray;
+  font-size: 25px;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  top: 23px;
+  right: 40px;
+  cursor: pointer; }
