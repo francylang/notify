@@ -1,4 +1,5 @@
 .character-card {
+  background-color: #49A6C3;
   align-items: center;
   text-align: center;
   width: 130px;
@@ -14,5 +15,5 @@
 
 .core-value {
   text-decoration: none;
-  font-size: 40px;
-  color: gray; }
+  font-size: 28px;
+  color: #fff; }

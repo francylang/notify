@@ -1,7 +1,10 @@
+$header-color-one: #d35656;
+$header-color-one-hover: #E65C4F;
+
+
 .header {
   display: flex;
-  // background-color:#E65C4F;
-  background-color: black;
+  background-color: $header-color-one;
   position: fixed;
   top: 0;
   width: 100%;
@@ -10,10 +13,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  }
+}
 
-.header-character {
-  // background-color: green
+.header-coreValue {
+  background-color: green;
 }
 
 h1 {
@@ -29,9 +32,14 @@ h1 {
   text-decoration: none;
 }
 
+.main-icon {
+  margin-right: 20px;
+}
+
 .header-one,
 .header-two {
   text-decoration: none;
+  font-weight: lighter;
 }
 
 .header-home {
@@ -44,18 +52,24 @@ h1 {
 .character-class-link {
   display: flex;
   flex-direction: row;
+}
 
+.img-new-student,
+.img-new-value,
+.img-students {
+  padding-right: 10px;
 }
 
 .character-link,
-.new-student-link {
+.new-student-link,
+.new-value-link {
   display: flex;
   align-items: center;
   justify-content: center;
   color: #F4F4F4;
   font-size: 18px;
   text-decoration: none;
-  padding: 15px 30px;
+  padding: 10px 25px;
   margin: 0 10px;
   border: 1px solid #F4F4F4;
   border-radius: 10px;

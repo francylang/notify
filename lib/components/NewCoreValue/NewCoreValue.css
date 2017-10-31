@@ -1,4 +1,4 @@
-.new-student {
+.new-value {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -8,35 +8,35 @@
   z-index: 100;
   transform: translate(-50%, -50%);
   background-color: #fff;
-  height: 340px;
+  height: 170px;
   width: 400px;
   border-radius: 5px;
   padding: 30px;
   margin: 40px 0 0;
   box-shadow: 5px 10px 10px #bdbdbd; }
 
-.create-new-student {
+.create-new-value {
   text-align: center;
-  color: #d35656; }
+  color: #1a90bf; }
 
-.add-new-student-form input {
+.add-new-value-form input {
   margin-top: 30px; }
 
-input {
+.new-core-value-input {
   width: 100%;
   background-color: transparent;
   border: none;
   border-bottom: 1px solid #bdbdbd;
   font-size: 20px;
   font-weight: lighter;
-  margin: 20px 0; }
+  margin: 6px 0; }
 
-input:focus {
+.new-core-value-input:focus {
   outline: none;
-  border-bottom: 2px solid #d35656; }
+  border-bottom: 2px solid #1a90bf; }
 
-.form-button {
-  background-color: #d35656;
+.form-button-value {
+  background-color: #1a90bf;
   border: none;
   border-radius: 10px;
   color: #fff;
@@ -46,8 +46,8 @@ input:focus {
   width: 100%;
   cursor: pointer; }
 
-.form-button:hover {
-  background-color: #E65C4F; }
+.form-button-value:hover {
+  background-color: #49A6C3; }
 
-.form-button:disabled {
+.form-button-value:disabled {
   background-color: #bdbdbd; }
