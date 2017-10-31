@@ -1,6 +1,10 @@
+$orange-color-one: #E65C4F;
+
+
+
 .header {
   display: flex;
-  background-color:#E65C4F;
+  background-color: $orange-color-one;
   position: fixed;
   top: 0;
   width: 100%;
