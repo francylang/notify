@@ -11,8 +11,8 @@
   align-items: center;
   }
 
-.header-character {
-  // background-color: green
+.header-coreValue {
+  background-color: green;
 }
 
 h1 {
@@ -47,7 +47,8 @@ h1 {
 }
 
 .character-link,
-.new-student-link {
+.new-student-link,
+.new-value-link {
   display: flex;
   align-items: center;
   justify-content: center;
