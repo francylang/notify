@@ -1,6 +1,16 @@
-.character-traits-ctnr {
+.values-classroom {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 63px 40px 47px 40px; }
+
+.return-to-students {
+  text-decoration: none; }
+
+.student-link-students {
+  text-decoration: none;
+  color: gray;
+  margin: 200px 40px 0px 40px; }
+
+.core-values-ctnr {
   display: flex;
   justify-content: space-around; }
-
-.student-link {
-  text-decoration: none; }

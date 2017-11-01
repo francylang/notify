@@ -1,8 +1,25 @@
-.character-traits-ctnr {
-    display: flex;
-    justify-content: space-around;
-  }
+.values-classroom {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 63px 40px 47px 40px;
+}
 
-.student-link {
+// .character-traits-ctnr {
+//   display: flex;
+//   justify-content: space-around;
+// }
+
+.return-to-students {
   text-decoration: none;
+}
+
+.student-link-students {
+  text-decoration: none;
+  color: gray;
+  margin: 200px 40px 0px 40px;
+}
+
+.core-values-ctnr {
+  display: flex;
+  justify-content: space-around;
 }
