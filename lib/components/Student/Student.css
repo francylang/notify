@@ -17,11 +17,12 @@
   display: flex;
   text-decoration: none;
   color: gray;
-  margin: 200px 40px 0px 4px; }
+  margin: 0 40px 0 4px; }
 
 .core-values-ctnr {
   display: flex;
-  justify-content: space-around; }
+  flex-wrap: wrap;
+  margin: 350px 40px 0 40px; }
 
 .icon-left-arrow {
   margin-right: 10px; }

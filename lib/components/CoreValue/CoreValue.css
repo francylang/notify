@@ -1,8 +1,8 @@
 .character-card {
-  background-color: #49A6C3;
+  opacity: 0.5;
   align-items: center;
   text-align: center;
-  width: 10%;
+  width: 120px;
   position: relative;
   display: flex;
   justify-content: center;
@@ -13,6 +13,9 @@
   box-shadow: 2px 4px 12px #888888;
   border-radius: 20%;
   cursor: pointer; }
+
+.character-card:hover {
+  opacity: .9; }
 
 .core-value {
   text-decoration: none;
