@@ -1,6 +1,27 @@
-.character-traits-ctnr {
+.values-classroom {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 63px 40px 47px 40px; }
+
+.return-to-students {
+  text-decoration: none; }
+
+.return-to {
+  margin-left: 5px; }
+
+.return-to:hover {
+  border-bottom: 2px solid #49A6C3; }
+
+.student-link-students {
+  display: flex;
+  text-decoration: none;
+  color: gray;
+  margin: 200px 40px 0px 4px; }
+
+.core-values-ctnr {
   display: flex;
   justify-content: space-around; }
 
-.student-link {
-  text-decoration: none; }
+.icon-left-arrow {
+  margin-right: 10px; }

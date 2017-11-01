@@ -11,9 +11,32 @@
   margin-bottom: 40px;
   padding: 65px;
   box-shadow: 2px 4px 12px #888888;
-  border-radius: 20%; }
+  border-radius: 20%;
+  cursor: pointer; }
 
 .core-value {
   text-decoration: none;
   font-size: 28px;
-  color: #fff; }
+  color: #fff;
+  cursor: pointer; }
+
+.core-value-counter {
+  font-size: 28px;
+  color: #fff;
+  padding-top: 28px;
+  cursor: pointer; }
+
+.green {
+  background-color: #688737; }
+
+.red {
+  background-color: #49A6C3; }
+
+.blue {
+  background-color: #405780; }
+
+.purple {
+  background-color: #A46CC3; }
+
+.yellow {
+  background-color: #ECAF4B; }
