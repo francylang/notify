@@ -1,4 +1,5 @@
 .character-card {
+  background-color: #49A6C3;
   opacity: 0.5;
   align-items: center;
   text-align: center;
@@ -11,11 +12,11 @@
   margin-bottom: 40px;
   padding: 65px;
   box-shadow: 2px 4px 12px #888888;
-  border-radius: 20%;
+  border-radius: 8%;
   cursor: pointer; }
 
 .character-card:hover {
-  opacity: .9; }
+  opacity: 1.5; }
 
 .core-value {
   text-decoration: none;
@@ -24,9 +25,8 @@
   cursor: pointer; }
 
 .core-value-counter {
-  font-size: 28px;
+  font-size: 80px;
   color: #fff;
-  padding-top: 28px;
   cursor: pointer; }
 
 .green {
