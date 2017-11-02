@@ -1,12 +1,12 @@
 .student-card {
   align-items: center;
   text-align: center;
-  width: 150px;
+  width: 140px;
   position: relative;
   display: flex;
   justify-content: center;
   flex-direction: column;
-  margin: 10px;
+  margin: 12px;
   padding: 60px 10px;
   box-shadow: 2px 4px 12px #888888;
   border-radius: 8%; }
@@ -27,6 +27,3 @@
   top: 10px;
   right: 21px;
   cursor: pointer; }
-
-.delete-student-btn:hover {
-  font-weight: bold; }
