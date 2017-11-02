@@ -3,14 +3,14 @@
   opacity: 0.5;
   align-items: center;
   text-align: center;
-  width: 120px;
+  width: 130px;
   position: relative;
   display: flex;
   justify-content: center;
   flex-direction: column;
   margin: 10px;
   margin-bottom: 40px;
-  padding: 65px;
+  padding: 54px;
   box-shadow: 2px 4px 12px #888888;
   border-radius: 8%;
   cursor: pointer; }
