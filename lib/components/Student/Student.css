@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  margin: 63px 40px 47px 40px; }
+  margin: 10px 40px 47px 40px; }
 
 .return-to-students {
   text-decoration: none; }
@@ -17,11 +17,15 @@
   display: flex;
   text-decoration: none;
   color: gray;
-  margin: 200px 40px 0px 4px; }
+  margin: 0 40px 0 4px; }
 
 .core-values-ctnr {
   display: flex;
-  justify-content: space-around; }
+  flex-wrap: wrap;
+  margin: 36px 40px 0 40px; }
 
 .icon-left-arrow {
   margin-right: 10px; }
+
+.student-name-header {
+  margin: 242px 0px 0 90px; }
