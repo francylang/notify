@@ -2,4 +2,27 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  margin: 250px 0px 0px 75px; }
+  margin: 0 0 0 75px; }
+
+.teacher-name {
+  margin: 210px 0 18px 96px;
+  color: #808080;
+  font-size: 30px;
+  font-weight: lighter; }
+
+.drop-down {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+
+.class-drop-down {
+  width: 20%;
+  background-color: transparent;
+  border-bottom: 1px solid #d35656;
+  font-size: 20px;
+  font-weight: lighter;
+  margin: 212px 89px 16px 0px;
+  background-image: url("../../assets/down-arrow.svg");
+  background-position: right;
+  background-size: 20px 20px;
+  background-repeat: no-repeat; }
