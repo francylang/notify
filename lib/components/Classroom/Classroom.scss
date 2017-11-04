@@ -1,3 +1,6 @@
+$main-color: #d35656;
+$main-color-hover: #E65C4F;
+
 .student-classroom {
   display: flex;
   flex-wrap: wrap;
@@ -12,22 +15,44 @@
   font-weight: lighter;
 }
 
+// select {
+//   position: absolute;
+//   overflow: hidden;
+//   height: 0px;
+//   opacity: 0;
+//   z-index: -1;
+// }
+
 .drop-down {
+  width: 20%;
+  background-color: transparent;
+  font-size: 20px;
+  font-weight: lighter;
+  margin: 212px 111px 16px 0px;
+  min-width: 300px;
+  width: 300px;
+  min-height: 60px;
+  font-family: 'Roboto';
+  color: #777;
+  font-weight: 300;
+  background-color: #fff;
+  box-shadow: 1px 2px 10px -2px rgba(0,0,0,0.3);
+  border-radius: 3px;
+  // border: none;
+  transition: all 375ms ease-in-out;
+}
+
+option {
+  font-family: sans-serif;
+}
+
+.drop-down:focus {
+  outline-color: $main-color;
+}
+
+.class-drop-down {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 
-}
-.class-drop-down {
-  width: 20%;
-  background-color: transparent;
-  border-bottom: 1px solid #d35656;
-  font-size: 20px;
-  font-weight: lighter;
-  margin: 212px 89px 16px 0px;
-  background-image: url('../../assets/down-arrow.svg');
-  background-position: right;
-  background-size: 20px 20px;
-
-  background-repeat: no-repeat;
 }

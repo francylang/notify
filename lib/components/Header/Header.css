@@ -15,11 +15,14 @@ h1 {
   font-size: 60px;
   display: flex;
   margin-left: 75px;
-  cursor: pointer;
-  color: #fff; }
+  color: #fff;
+  cursor: pointer; }
 
 .header-link {
   text-decoration: none; }
+
+header:focus {
+  outline-color: #d35656; }
 
 .main-icon {
   margin-right: 20px; }
@@ -28,6 +31,10 @@ h1 {
 .header-two {
   text-decoration: none;
   font-weight: lighter; }
+
+.header-one:focus,
+.header-two:focus {
+  outline-color: #d35656; }
 
 .header-home {
   display: flex;
@@ -52,7 +59,7 @@ h1 {
   color: #F4F4F4;
   font-size: 18px;
   text-decoration: none;
-  padding: 10px 25px;
+  padding: 6px 17px;
   margin: 0 17px;
   border: 1px solid #F4F4F4;
   border-radius: 10px;

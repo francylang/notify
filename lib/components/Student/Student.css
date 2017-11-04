@@ -11,13 +11,13 @@
   margin-left: 5px; }
 
 .return-to:hover {
-  border-bottom: 2px solid #49A6C3; }
+  border-bottom: 2px solid #E65C4F; }
 
 .student-link-students {
   display: flex;
   text-decoration: none;
-  color: gray;
-  margin: 0 40px 0 4px; }
+  color: #888888;
+  margin: 0 40px 0 45px; }
 
 .core-values-ctnr {
   display: flex;
@@ -28,7 +28,10 @@
   margin-right: 10px; }
 
 .student-name-header {
-  color: gray;
+  color: #888888;
   font-size: 50px;
   font-weight: lighter;
-  margin: 242px 0px 0 90px; }
+  margin: 242px 0px 0 98px; }
+
+.student-name-header:focus {
+  outline: #d35656; }

@@ -1,10 +1,9 @@
-$header-color-one: #d35656;
-$header-color-one-hover: #E65C4F;
-
+$main-color: #d35656;
+$main-color-hover: #E65C4F;
 
 .header {
   display: flex;
-  background-color: $header-color-one;
+  background-color: $main-color;
   position: fixed;
   top: 0;
   width: 100%;
@@ -15,17 +14,22 @@ $header-color-one-hover: #E65C4F;
   align-items: center;
 }
 
+
 h1 {
   text-decoration: none;
   font-size: 60px;
   display: flex;
   margin-left: 75px;
-  cursor:pointer;
   color: #fff;
+  cursor:pointer;
 }
 
 .header-link {
   text-decoration: none;
+}
+
+header:focus {
+  outline-color: $main-color;
 }
 
 .main-icon {
@@ -38,9 +42,13 @@ h1 {
   font-weight: lighter;
 }
 
+.header-one:focus,
+.header-two:focus {
+  outline-color: $main-color;
+}
+
 .header-home {
   display: flex;
-  // flex-direction: column;
   justify-content: center;
   margin-right: 75px;
 }
@@ -65,7 +73,7 @@ h1 {
   color: #F4F4F4;
   font-size: 18px;
   text-decoration: none;
-  padding: 10px 25px;
+  padding: 6px 17px;
   margin: 0 17px;
   border: 1px solid #F4F4F4;
   border-radius: 10px;
