@@ -64,3 +64,9 @@ header:focus {
   border: 1px solid #F4F4F4;
   border-radius: 10px;
   cursor: pointer; }
+
+.character-link:hover,
+.new-student-link:hover,
+.new-value-link:hover {
+  color: #d35656;
+  background-color: #fff; }
