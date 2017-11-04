@@ -1,3 +1,7 @@
+$main-color: #d35656;
+$main-color-hover: #E65C4F;
+$second-color: #1a90bf;
+
 .new-value {
   display: flex;
   flex-direction: column;
@@ -18,7 +22,7 @@
 
 .create-new-value {
   text-align: center;
-  color: #1a90bf;
+  color: $main-color;
 }
 
 .add-new-value-form input {
@@ -36,11 +40,11 @@
 }
 .new-core-value-input:focus {
   outline: none;
-  border-bottom: 2px solid #1a90bf;
+  border-bottom: 2px solid $main-color;
 }
 
 .form-button-value {
-  background-color: #1a90bf;
+  background-color: $main-color;
   border: none;
   border-radius: 10px;
   color: #fff;
@@ -52,7 +56,7 @@
 }
 
 .form-button-value:hover {
-  background-color: #49A6C3;
+  background-color: $main-color-hover;
 }
 
 .form-button-value:disabled {

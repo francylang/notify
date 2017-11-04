@@ -1,5 +1,8 @@
+$main-color: #d35656;
+$main-color-hover: #E65C4F;
+
 .character-card {
-  background-color: #49A6C3;
+  background-color: $main-color;
   opacity: 0.5;
   align-items: center;
   text-align: center;
@@ -17,7 +20,7 @@
 }
 
 .no-opacity {
-  background-color: #49A6C3;
+  background-color: $main-color;
   opacity: 1.5;
   align-items: center;
   text-align: center;
@@ -57,7 +60,7 @@
 }
 
 .red {
-  background-color: #49A6C3;
+  background-color: #1a90bf;
 }
 
 .blue {

@@ -1,3 +1,6 @@
+$main-color: #d35656;
+$main-color-hover: #E65C4F;
+
 .values-classroom {
   display: flex;
   flex-direction: column;
@@ -14,13 +17,13 @@
 }
 
 .return-to:hover {
-  border-bottom: 2px solid #49A6C3;
+  border-bottom: 2px solid $main-color-hover;
 }
 
 .student-link-students {
   display: flex;
   text-decoration: none;
-  color: gray;
+  color: #888888;
   margin: 0 40px 0 45px;
 }
 
@@ -35,8 +38,12 @@
 }
 
 .student-name-header {
-  color: gray;
+  color: #888888;
   font-size: 50px;
   font-weight: lighter;
-  margin: 242px 0px 0 94px;
+  margin: 242px 0px 0 98px;
+}
+
+.student-name-header:focus {
+  outline: $main-color;
 }

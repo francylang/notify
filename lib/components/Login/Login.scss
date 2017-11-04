@@ -1,4 +1,12 @@
-.new-value {
+$main-color: #d35656;
+$main-color-hover: #E65C4F;
+
+.login {
+  text-align: center;
+  color: $main-color;
+}
+
+.login-form {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -8,35 +16,32 @@
   z-index: 100;
   transform: translate(-50%, -50%);
   background-color: #fff;
-  height: 170px;
+  height: 340px;
   width: 400px;
   border-radius: 5px;
   padding: 30px;
   margin: 40px 0 0;
-  box-shadow: 5px 10px 10px #bdbdbd; }
+  box-shadow: 5px 10px 25px #bdbdbd;
+  overflow: hidden;
+  animation: appear 0.2s linear;
+}
 
-.create-new-value {
-  text-align: center;
-  color: #d35656; }
-
-.add-new-value-form input {
-  margin-top: 30px; }
-
-.new-core-value-input {
+input {
   width: 100%;
   background-color: transparent;
   border: none;
   border-bottom: 1px solid #bdbdbd;
   font-size: 20px;
   font-weight: lighter;
-  margin: 6px 0; }
-
-.new-core-value-input:focus {
+  margin: 20px 0;
+}
+input:focus {
   outline: none;
-  border-bottom: 2px solid #d35656; }
+  border-bottom: 2px solid $main-color;
+}
 
-.form-button-value {
-  background-color: #d35656;
+.login-submit-button {
+  background-color: $main-color;
   border: none;
   border-radius: 10px;
   color: #fff;
@@ -44,10 +49,13 @@
   font-size: 16px;
   margin: 20px 0;
   width: 100%;
-  cursor: pointer; }
+  cursor: pointer;
+}
 
-.form-button-value:hover {
-  background-color: #E65C4F; }
+.login-submit-button:hover {
+    background-color: $main-color-hover;
+}
 
-.form-button-value:disabled {
-  background-color: #bdbdbd; }
+.login-submit-button:disabled {
+    background-color: #bdbdbd;
+}

@@ -1,3 +1,6 @@
+$main-color: #d35656;
+$main-color-hover: #E65C4F;
+
 .student-card {
   align-items: center;
    text-align: center;
@@ -17,16 +20,19 @@
 
 .student-name {
   text-decoration: none;
-  color: gray;
+  color: #888888;
 }
 
 .student-name:hover {
   font-weight: bold;
 }
 
+.student-name:focus {
+  outline-color: $main-color;
+}
 
 .delete-student-btn {
-  color: gray;
+  color: #888888;
   font-size: 20px;
   width: 10px;
   height: 10px;
