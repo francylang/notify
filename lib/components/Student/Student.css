@@ -11,7 +11,7 @@
   margin-left: 5px; }
 
 .return-to:hover {
-  border-bottom: 2px solid #E65C4F; }
+  border-bottom: 2px solid #405780; }
 
 .student-link-students {
   display: flex;
@@ -34,4 +34,4 @@
   margin: 243px 0px 0 122px; }
 
 .student-name-header:focus {
-  outline: #d35656; }
+  outline: #1a90bf; }

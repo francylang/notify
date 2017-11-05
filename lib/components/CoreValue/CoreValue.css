@@ -1,5 +1,5 @@
 .character-card {
-  background-color: #d35656;
+  background-color: #1a90bf;
   opacity: 0.5;
   align-items: center;
   text-align: center;
@@ -16,7 +16,7 @@
   cursor: pointer; }
 
 .no-opacity {
-  background-color: #d35656;
+  background-color: #1a90bf;
   opacity: 1.5;
   align-items: center;
   text-align: center;
@@ -26,8 +26,8 @@
   justify-content: center;
   flex-direction: column;
   margin: 10px;
-  margin-bottom: 12px;
-  padding: 54px;
+  margin-bottom: 40px;
+  padding: 38px 47px;
   box-shadow: 2px 4px 12px #888888;
   border-radius: 8%;
   cursor: pointer; }
@@ -50,7 +50,7 @@
   background-color: #688737; }
 
 .red {
-  background-color: #1a90bf; }
+  background-color: #d35656; }
 
 .blue {
   background-color: #405780; }
