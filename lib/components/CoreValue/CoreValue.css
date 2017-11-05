@@ -1,5 +1,5 @@
 .character-card {
-  background-color: #d35656;
+  background-color: #1a90bf;
   opacity: 0.5;
   align-items: center;
   text-align: center;
@@ -16,7 +16,7 @@
   cursor: pointer; }
 
 .no-opacity {
-  background-color: #d35656;
+  background-color: #1a90bf;
   opacity: 1.5;
   align-items: center;
   text-align: center;
@@ -50,7 +50,7 @@
   background-color: #688737; }
 
 .red {
-  background-color: #1a90bf; }
+  background-color: #d35656; }
 
 .blue {
   background-color: #405780; }

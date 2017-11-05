@@ -17,7 +17,7 @@
 
 .create-new-student {
   text-align: center;
-  color: #d35656; }
+  color: #1a90bf; }
 
 .add-new-student-form input {
   margin-top: 30px; }
@@ -33,10 +33,10 @@ input {
 
 input:focus {
   outline: none;
-  border-bottom: 2px solid #d35656; }
+  border-bottom: 2px solid #1a90bf; }
 
 .form-button {
-  background-color: #d35656;
+  background-color: #1a90bf;
   border: none;
   border-radius: 10px;
   color: #fff;
@@ -47,7 +47,7 @@ input:focus {
   cursor: pointer; }
 
 .form-button:hover {
-  background-color: #E65C4F; }
+  background-color: #405780; }
 
 .form-button:disabled {
   background-color: #bdbdbd; }
