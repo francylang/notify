@@ -1,6 +1,6 @@
 .header {
   display: flex;
-  background-color: #d35656;
+  background-color: #1a90bf;
   position: fixed;
   top: 0;
   width: 100%;
@@ -19,10 +19,14 @@ h1 {
   cursor: pointer; }
 
 .header-link {
-  text-decoration: none; }
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+  background-image: url("http://localhost:8080/lib/assets/wirtable.svg");
+  background-repeat: no-repeat; }
 
 header:focus {
-  outline-color: #d35656; }
+  outline-color: #1a90bf; }
 
 .main-icon {
   margin-right: 20px; }
@@ -34,7 +38,7 @@ header:focus {
 
 .header-one:focus,
 .header-two:focus {
-  outline-color: #d35656; }
+  outline-color: #1a90bf; }
 
 .header-home {
   display: flex;
@@ -68,5 +72,5 @@ header:focus {
 .character-link:hover,
 .new-student-link:hover,
 .new-value-link:hover {
-  color: #d35656;
+  color: #1a90bf;
   background-color: #fff; }
