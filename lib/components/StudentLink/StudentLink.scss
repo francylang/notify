@@ -41,8 +41,11 @@ $main-color-hover: #405780;
   right: 21px;
   cursor: pointer;
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 500px) {
   .student-card {
+    width: 100%;
+    font-size: 40px;
+
 
   }
 }

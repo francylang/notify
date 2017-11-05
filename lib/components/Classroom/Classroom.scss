@@ -53,12 +53,20 @@ option {
 
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 500px) {
 
   .student-classroom {
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    }
+    // flex-wrap: wrap;
+    // align-items: center;
+    // justify-content: center;
+    margin: 0px 10px 0 10px;
+  }
+
+  .teacher-name {
+    margin-top: 210px;
+    margin-left: 42px;
+    font-weight: 600;
+
+  }
 }

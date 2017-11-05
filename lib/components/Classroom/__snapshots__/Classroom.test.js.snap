@@ -17,19 +17,6 @@ ShallowWrapper {
         >
             's Classroom
         </h2>
-        <select
-            className="drop-down"
-        >
-            <option>
-                Social Studies Block 1
-            </option>
-            <option>
-                Social Studies Block 2
-            </option>
-            <option>
-                Social Studies Block 3
-            </option>
-        </select>
     </div>
     <div
         className="student-classroom"
@@ -51,19 +38,6 @@ ShallowWrapper {
             >
                   's Classroom
             </h2>
-            <select
-                  className="drop-down"
-            >
-                  <option>
-                        Social Studies Block 1
-                  </option>
-                  <option>
-                        Social Studies Block 2
-                  </option>
-                  <option>
-                        Social Studies Block 3
-                  </option>
-            </select>
       </div>
       <div
             className="student-classroom"
@@ -139,19 +113,6 @@ ShallowWrapper {
                     >
                               's Classroom
                     </h2>
-                    <select
-                              className="drop-down"
-                    >
-                              <option>
-                                        Social Studies Block 1
-                              </option>
-                              <option>
-                                        Social Studies Block 2
-                              </option>
-                              <option>
-                                        Social Studies Block 3
-                              </option>
-                    </select>
           </div>
           <div
                     className="student-classroom"
@@ -173,19 +134,6 @@ ShallowWrapper {
                     >
                               's Classroom
                     </h2>
-                    <select
-                              className="drop-down"
-                    >
-                              <option>
-                                        Social Studies Block 1
-                              </option>
-                              <option>
-                                        Social Studies Block 2
-                              </option>
-                              <option>
-                                        Social Studies Block 3
-                              </option>
-                    </select>
           </div>
           <div
                     className="student-classroom"

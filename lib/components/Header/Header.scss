@@ -29,6 +29,7 @@ h1 {
   height: 100%;
   background-image: url('http://localhost:8080/lib/assets/wirtable.svg');
   background-repeat: no-repeat;
+  margin-left: 75px;
 }
 
 header:focus {
@@ -51,14 +52,11 @@ header:focus {
 }
 
 .header-home {
-  display: flex;
-  justify-content: center;
-  margin-right: 75px;
+
 }
 
 .character-class-link {
   display: flex;
-  flex-direction: row;
 }
 
 .img-new-student,
@@ -67,12 +65,16 @@ header:focus {
   padding-right: 10px;
 }
 
+.icon{
+// background-image: url('../../assets/settings.svg')
+}
+
 .character-link,
 .new-student-link,
 .new-value-link,
 .new-login-link {
-  display: flex;
-  flex-direction: column;
+  // display: flex;
+  // flex-direction: column;
   // align-items: center;
   // justify-content: center;
   color: #F4F4F4;
@@ -80,7 +82,7 @@ header:focus {
   text-decoration: none;
   padding: 6px 17px;
   // margin: 0 17px;
-  // width: 171px;
+  width: 171px;
   // border: 1px solid #F4F4F4;
   // border-radius: 10px;
   cursor: pointer;
