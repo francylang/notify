@@ -1,0 +1,224 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CLASSROOM should match the Classroom snapshot 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <div>
+    <div
+        className="class-drop-down"
+    >
+        <h2
+            className="teacher-name"
+        >
+            's Classroom
+        </h2>
+        <select
+            className="drop-down"
+        >
+            <option>
+                Social Studies Block 1
+            </option>
+            <option>
+                Social Studies Block 2
+            </option>
+            <option>
+                Social Studies Block 3
+            </option>
+        </select>
+    </div>
+    <div
+        className="student-classroom"
+    >
+        <StudentLink
+            deleteStudent={[Function]}
+            id={5}
+            name="Francy Lang"
+        />
+    </div>
+</div>,
+  "nodes": Array [
+    <div>
+      <div
+            className="class-drop-down"
+      >
+            <h2
+                  className="teacher-name"
+            >
+                  's Classroom
+            </h2>
+            <select
+                  className="drop-down"
+            >
+                  <option>
+                        Social Studies Block 1
+                  </option>
+                  <option>
+                        Social Studies Block 2
+                  </option>
+                  <option>
+                        Social Studies Block 3
+                  </option>
+            </select>
+      </div>
+      <div
+            className="student-classroom"
+      >
+            <StudentLink
+                  deleteStudent={[Function]}
+                  id={5}
+                  name="Francy Lang"
+            />
+      </div>
+</div>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_instance": ShallowComponentWrapper {
+      "_calledComponentWillUnmount": false,
+      "_compositeType": 2,
+      "_context": Object {},
+      "_currentElement": <Classroom
+        students={
+                Array [
+                        Object {
+                          "id": 5,
+                          "name": "Francy Lang",
+                          "parentContact": "Pam Lang",
+                          "phone": "5029052136",
+                        },
+                      ]
+        }
+/>,
+      "_debugID": 3,
+      "_hostContainerInfo": null,
+      "_hostParent": null,
+      "_instance": StatelessComponent {
+        "_reactInternalInstance": [Circular],
+        "context": Object {},
+        "props": Object {
+          "students": Array [
+            Object {
+              "id": 5,
+              "name": "Francy Lang",
+              "parentContact": "Pam Lang",
+              "phone": "5029052136",
+            },
+          ],
+        },
+        "refs": Object {},
+        "state": null,
+        "updater": Object {
+          "enqueueCallback": [Function],
+          "enqueueCallbackInternal": [Function],
+          "enqueueElementInternal": [Function],
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+          "validateCallback": [Function],
+        },
+      },
+      "_mountOrder": 2,
+      "_pendingCallbacks": null,
+      "_pendingElement": null,
+      "_pendingForceUpdate": false,
+      "_pendingReplaceState": false,
+      "_pendingStateQueue": null,
+      "_renderedComponent": NoopInternalComponent {
+        "_currentElement": <div>
+          <div
+                    className="class-drop-down"
+          >
+                    <h2
+                              className="teacher-name"
+                    >
+                              's Classroom
+                    </h2>
+                    <select
+                              className="drop-down"
+                    >
+                              <option>
+                                        Social Studies Block 1
+                              </option>
+                              <option>
+                                        Social Studies Block 2
+                              </option>
+                              <option>
+                                        Social Studies Block 3
+                              </option>
+                    </select>
+          </div>
+          <div
+                    className="student-classroom"
+          >
+                    <StudentLink
+                              deleteStudent={[Function]}
+                              id={5}
+                              name="Francy Lang"
+                    />
+          </div>
+</div>,
+        "_debugID": 4,
+        "_renderedOutput": <div>
+          <div
+                    className="class-drop-down"
+          >
+                    <h2
+                              className="teacher-name"
+                    >
+                              's Classroom
+                    </h2>
+                    <select
+                              className="drop-down"
+                    >
+                              <option>
+                                        Social Studies Block 1
+                              </option>
+                              <option>
+                                        Social Studies Block 2
+                              </option>
+                              <option>
+                                        Social Studies Block 3
+                              </option>
+                    </select>
+          </div>
+          <div
+                    className="student-classroom"
+          >
+                    <StudentLink
+                              deleteStudent={[Function]}
+                              id={5}
+                              name="Francy Lang"
+                    />
+          </div>
+</div>,
+      },
+      "_renderedNodeType": 0,
+      "_rootNodeID": 0,
+      "_topLevelWrapper": null,
+      "_updateBatchNumber": null,
+      "_warnedAboutRefsInRender": false,
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <Classroom
+    students={
+        Array [
+            Object {
+              "id": 5,
+              "name": "Francy Lang",
+              "parentContact": "Pam Lang",
+              "phone": "5029052136",
+            },
+          ]
+    }
+/>,
+}
+`;
