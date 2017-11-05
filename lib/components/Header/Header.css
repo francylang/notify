@@ -56,7 +56,8 @@ header:focus {
 
 .character-link,
 .new-student-link,
-.new-value-link {
+.new-value-link,
+.new-login-link {
   display: flex;
   align-items: center;
   justify-content: center;
