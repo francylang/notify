@@ -5,11 +5,11 @@ $main-color-hover: #405780;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  margin: 0 0 0 75px;
+  margin: 0px 0 0 75px;
 }
 
 .teacher-name {
-  margin: 210px 0 18px 96px;
+  margin: 240px 0 18px 96px;
   color: #808080;
   font-size: 30px;
   font-weight: lighter;
@@ -51,4 +51,14 @@ option {
   flex-direction: row;
   justify-content: space-between;
 
+}
+
+@media screen and (max-width: 320px) {
+
+  .student-classroom {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    }
 }

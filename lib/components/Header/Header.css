@@ -59,19 +59,16 @@ header:focus {
 .new-value-link,
 .new-login-link {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-direction: column;
   color: #F4F4F4;
   font-size: 18px;
   text-decoration: none;
   padding: 6px 17px;
-  margin: 0 17px;
-  border: 1px solid #F4F4F4;
-  border-radius: 10px;
   cursor: pointer; }
 
 .character-link:hover,
 .new-student-link:hover,
-.new-value-link:hover {
-  color: #1a90bf;
-  background-color: #fff; }
+.new-value-link:hover,
+.new-login-link:hover {
+  border-bottom: 1px solid #fff;
+  cursor: pointer; }
