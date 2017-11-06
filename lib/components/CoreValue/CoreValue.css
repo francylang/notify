@@ -8,9 +8,8 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  margin: 10px;
-  margin-bottom: 40px;
-  padding: 38px 47px;
+  margin: 10px 10px 40px 28px;
+  padding: 38px 50px;
   box-shadow: 2px 4px 12px #888888;
   border-radius: 8%;
   cursor: pointer; }
@@ -25,9 +24,8 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  margin: 10px;
-  margin-bottom: 40px;
-  padding: 38px 47px;
+  margin: 10px 10px 40px 28px;
+  padding: 38px 50px;
   box-shadow: 2px 4px 12px #888888;
   border-radius: 8%;
   cursor: pointer; }
@@ -62,6 +60,8 @@
   background-color: #ECAF4B; }
 
 @media screen and (max-width: 500px) {
+  .character-card {
+    margin: 29px 8px 40px 7px; }
   .no-opacity {
     width: 70%;
     cursor: pointer; } }
