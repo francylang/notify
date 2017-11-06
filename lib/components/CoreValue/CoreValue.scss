@@ -74,3 +74,25 @@ $main-color-hover: #405780;
 .yellow {
   background-color: #ECAF4B;
 }
+
+
+@media screen and (max-width: 500px) {
+
+  .character-card {
+    // background-color: $main-color;
+    // opacity: 0.5;
+    width: 70%;
+
+
+
+    cursor: pointer;
+  }
+
+  .no-opacity {
+    // background-color: $main-color;
+    // opacity: 1.5;
+    width: 70%;
+    cursor: pointer;
+  }
+
+}

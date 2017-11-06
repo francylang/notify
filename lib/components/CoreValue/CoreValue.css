@@ -60,3 +60,11 @@
 
 .yellow {
   background-color: #ECAF4B; }
+
+@media screen and (max-width: 500px) {
+  .character-card {
+    width: 70%;
+    cursor: pointer; }
+  .no-opacity {
+    width: 70%;
+    cursor: pointer; } }

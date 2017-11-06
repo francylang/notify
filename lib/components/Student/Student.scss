@@ -47,3 +47,23 @@ $main-color-hover: #405780;
 .student-name-header:focus {
   outline: $main-color;
 }
+
+
+
+@media screen and (max-width: 500px) {
+  .student-name-header {
+    margin: 243px 0px 0 80px;
+  }
+
+  .core-values-ctnr {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 36px 12px 0
+  }
+
+  .student-link-students {
+    margin: 0 40px 0 -18px;
+
+  }
+}
