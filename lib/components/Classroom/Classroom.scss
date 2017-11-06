@@ -5,11 +5,11 @@ $main-color-hover: #405780;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  margin: 0px 0 0 75px;
+  justify-content: center;
 }
 
 .teacher-name {
-  margin: 240px 0 18px 96px;
+  margin: 240px 0 18px 59px;
   color: #808080;
   font-size: 30px;
   font-weight: lighter;
@@ -53,20 +53,34 @@ option {
 
 }
 
-@media screen and (max-width: 500px) {
-
+@media screen and (max-width: 320) {
   .student-classroom {
     display: flex;
-    // flex-wrap: wrap;
-    // align-items: center;
-    // justify-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .student-classroom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
     margin: 0px 10px 0 10px;
   }
 
   .teacher-name {
-    margin: 211px 0 18px 45px;
-    font-weight: 600;
+    font-size: 20px;
+    margin: 211px 0 16px 105px;
+
   }
 
+  @media screen and (max-width: 720px) {
 
-}
+    .teacher-name {
+      font-size: 20px;
+      margin: 211px 0 16px 87px;
+
+    }
