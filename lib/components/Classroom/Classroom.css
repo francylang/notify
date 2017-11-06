@@ -40,6 +40,5 @@ option {
     display: flex;
     margin: 0px 10px 0 10px; }
   .teacher-name {
-    margin-top: 210px;
-    margin-left: 42px;
+    margin: 211px 0 18px 45px;
     font-weight: 600; } }

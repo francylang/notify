@@ -27,9 +27,14 @@ h1 {
   text-decoration: none;
   width: 100%;
   height: 100%;
-  background-image: url('http://localhost:8080/lib/assets/wirtable.svg');
+  background-image: url('http://localhost:8080/lib/assets/notable.svg');
   background-repeat: no-repeat;
   margin-left: 75px;
+}
+
+.logo {
+  width: 100%;
+  height: 100%;
 }
 
 header:focus {

@@ -34,4 +34,5 @@
 @media screen and (max-width: 500px) {
   .student-card {
     width: 100%;
-    font-size: 40px; } }
+    font-size: 40px;
+    border-radius: 8%; } }
