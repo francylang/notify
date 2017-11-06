@@ -24,7 +24,8 @@ h1 {
   height: 100%;
   background-image: url("http://localhost:8080/lib/assets/notable.svg");
   background-repeat: no-repeat;
-  margin-left: 75px; }
+  margin-left: 75px;
+  z-index: 11; }
 
 .logo {
   width: 100%;
@@ -46,7 +47,9 @@ header:focus {
   outline-color: #1a90bf; }
 
 .character-class-link {
-  display: flex; }
+  display: flex;
+  flex-direction: column;
+  margin-right: 84px; }
 
 .img-new-student,
 .img-new-value,
@@ -57,11 +60,17 @@ header:focus {
 .new-student-link,
 .new-value-link,
 .new-login-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: #F4F4F4;
   font-size: 18px;
   text-decoration: none;
-  padding: 6px 17px;
-  width: 171px;
+  padding: 4px 10px;
+  margin: 8px 0;
+  width: 165px;
+  border: 1px solid #F4F4F4;
+  border-radius: 10px;
   cursor: pointer; }
 
 .character-link:hover,
@@ -70,3 +79,31 @@ header:focus {
 .new-login-link:hover {
   border-bottom: 1px solid #fff;
   cursor: pointer; }
+
+@media screen and (max-width: 500px) {
+  .header {
+    flex-direction: column; }
+  .logo {
+    width: 0;
+    height: 0; }
+  .header-link {
+    margin-left: 0;
+    margin-top: 25px; }
+  .character-class-link {
+    display: flex;
+    width: 359px;
+    margin-left: 63px; }
+  .new-value-link {
+    margin-left: -16px; }
+  .character-link,
+  .new-student-link,
+  .new-value-link,
+  .new-login-link {
+    font-size: 14px;
+    padding: 22px 9px 0px 9px;
+    width: 101px;
+    cursor: pointer;
+    align-items: center; }
+  .img-new-value,
+  .img-new-student {
+    display: none; } }
