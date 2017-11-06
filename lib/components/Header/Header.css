@@ -16,7 +16,6 @@
   height: 100%;
   background-image: url("http://localhost:8080/lib/assets/notable.svg");
   background-repeat: no-repeat;
-  margin-left: 16px;
   z-index: 11; }
 
 header:focus {
@@ -37,7 +36,7 @@ header:focus {
 .character-class-link {
   display: flex;
   flex-direction: column;
-  margin-right: 52px; }
+  margin-right: 55px; }
 
 .img-new-student,
 .img-new-value,
@@ -65,7 +64,8 @@ header:focus {
 .new-student-link:hover,
 .new-value-link:hover,
 .new-login-link:hover {
-  border-bottom: 1px solid #fff;
+  background-color: #F4F4F4;
+  color: #1a90bf;
   cursor: pointer; }
 
 @media screen and (max-width: 320px) {
