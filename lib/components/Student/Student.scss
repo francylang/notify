@@ -30,7 +30,7 @@ $main-color-hover: #405780;
 .core-values-ctnr {
   display: flex;
   flex-wrap: wrap;
-  margin: 36px 12px 0 37px;
+  margin: 34px 0 0 26px;
 }
 
 .icon-left-arrow {
@@ -51,12 +51,20 @@ $main-color-hover: #405780;
 @media screen and (max-width: 500px) {
 
   .core-values-ctnr {
-    display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
   }
 
   .student-link-students {
     margin: 0 40px 0 55px;
 
+  }
+
+  .student-name-header {
+    margin: 243px 0px 0 0px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
   }
 }
