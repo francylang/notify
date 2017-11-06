@@ -18,15 +18,17 @@ ShallowWrapper {
             Login
         </h2>
         <input
+            className="login-form-email"
             onChange={[Function]}
             placeholder="Email"
             type="text"
             value=""
         />
         <input
+            className="login-form-password"
             onChange={[Function]}
             placeholder="Password"
-            type="text"
+            type="password"
             value=""
         />
         <input
@@ -48,15 +50,17 @@ ShallowWrapper {
                   Login
             </h2>
             <input
+                  className="login-form-email"
                   onChange={[Function]}
                   placeholder="Email"
                   type="text"
                   value=""
             />
             <input
+                  className="login-form-password"
                   onChange={[Function]}
                   placeholder="Password"
-                  type="text"
+                  type="password"
                   value=""
             />
             <input
@@ -116,15 +120,17 @@ ShallowWrapper {
                               Login
                     </h2>
                     <input
+                              className="login-form-email"
                               onChange={[Function]}
                               placeholder="Email"
                               type="text"
                               value=""
                     />
                     <input
+                              className="login-form-password"
                               onChange={[Function]}
                               placeholder="Password"
-                              type="text"
+                              type="password"
                               value=""
                     />
                     <input
@@ -146,15 +152,17 @@ ShallowWrapper {
                               Login
                     </h2>
                     <input
+                              className="login-form-email"
                               onChange={[Function]}
                               placeholder="Email"
                               type="text"
                               value=""
                     />
                     <input
+                              className="login-form-password"
                               onChange={[Function]}
                               placeholder="Password"
-                              type="text"
+                              type="password"
                               value=""
                     />
                     <input

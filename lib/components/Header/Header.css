@@ -40,8 +40,9 @@ header:focus {
 
 .img-new-student,
 .img-new-value,
-.img-students {
-  padding-right: 10px; }
+.img-new-student {
+  padding-right: 10px;
+  z-index: 100; }
 
 .character-link,
 .new-student-link,
@@ -65,6 +66,7 @@ header:focus {
 .new-value-link:hover,
 .new-login-link:hover {
   background-color: #F4F4F4;
+  opacity: 0.5;
   color: #1a90bf;
   cursor: pointer; }
 

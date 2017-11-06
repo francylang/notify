@@ -50,8 +50,9 @@ header:focus {
 
 .img-new-student,
 .img-new-value,,
-.img-students {
+.img-new-student {
   padding-right: 10px;
+  z-index: 100;
 }
 
 .character-link,
@@ -77,6 +78,7 @@ header:focus {
 .new-value-link:hover,
 .new-login-link:hover {
   background-color: #F4F4F4;
+  opacity: 0.5;
   color: $main-color;
   cursor: pointer;
 }
@@ -90,7 +92,6 @@ header:focus {
     width: 238px;
     cursor: pointer;
   }
-
 }
 
 @media screen and (max-width: 650px) {
