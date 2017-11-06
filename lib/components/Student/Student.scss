@@ -5,7 +5,7 @@ $main-color-hover: #405780;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  margin: 10px 50px 47px 50px;
+  margin: 10px 50px 47px 0px;
 }
 
 .return-to-students {
@@ -30,7 +30,7 @@ $main-color-hover: #405780;
 .core-values-ctnr {
   display: flex;
   flex-wrap: wrap;
-  margin: 36px 12px 0 103px;
+  margin: 36px 12px 0 37px;
 }
 
 .icon-left-arrow {
@@ -41,29 +41,22 @@ $main-color-hover: #405780;
   color: #888888;
   font-size: 50px;
   font-weight: lighter;
-  margin: 243px 0px 0 122px;
+  margin: 243px 0px 0 55px;
 }
 
 .student-name-header:focus {
   outline: $main-color;
 }
 
-
-
 @media screen and (max-width: 500px) {
-  .student-name-header {
-    margin: 243px 0px 0 80px;
-  }
 
   .core-values-ctnr {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    margin: 36px 12px 0
   }
 
   .student-link-students {
-    margin: 0 40px 0 -18px;
+    margin: 0 40px 0 55px;
 
   }
 }

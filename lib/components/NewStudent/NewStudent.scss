@@ -63,3 +63,10 @@ input:focus {
 .form-button:disabled {
   background-color: #bdbdbd;
 }
+
+@media screen and (max-width: 500px) {
+  .new-student {
+    width: 260px;
+    margin-top: 100px;
+  }
+}

@@ -60,3 +60,10 @@ $main-color-hover: #405780;
 .form-button-value:disabled {
   background-color: #bdbdbd;
 }
+
+@media screen and (max-width: 500px) {
+  .new-value {
+    width: 260px;
+    margin-top: 100px;
+  }
+}

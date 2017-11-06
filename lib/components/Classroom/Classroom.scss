@@ -66,13 +66,11 @@ option {
   .teacher-name {
     font-size: 20px;
     margin: 211px 0 16px 105px;
-
   }
 
-  @media screen and (max-width: 720px) {
+@media screen and (max-width: 720px) {
 
-    .teacher-name {
-      font-size: 20px;
-      margin: 211px 0 16px 87px;
-
-    }
+  .teacher-name {
+    font-size: 20px;
+    margin: 211px 0 16px 87px;
+  }
