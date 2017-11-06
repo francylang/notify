@@ -20,10 +20,8 @@ $main-color-hover: #405780;
   height: 100%;
   background-image: url('http://localhost:8080/lib/assets/notable.svg');
   background-repeat: no-repeat;
-  margin-left: 66px;
   z-index: 11;
 }
-
 
 header:focus {
   outline-color: $main-color;
@@ -42,10 +40,6 @@ header:focus {
 .header-one:focus,
 .header-two:focus {
   outline-color: $main-color;
-}
-
-.header-home {
-
 }
 
 .character-class-link {
@@ -82,10 +76,9 @@ header:focus {
 .new-student-link:hover,
 .new-value-link:hover,
 .new-login-link:hover {
-  // color: $main-color;
-  border-bottom: 1px solid #fff;
+  background-color: #F4F4F4;
+  color: $main-color;
   cursor: pointer;
-
 }
 
 
@@ -141,24 +134,4 @@ header:focus {
   .img-new-student {
     display: none;
   }
-}
-
-@media screen and (min-width: 815px) {
-  .character-class-link {
-      flex-direction: column;
-      margin-right: 33px;
-}
-
-@media screen and (max-width: 1198px) {
-
-  .character-class-link {
-      flex-direction: column;
-      margin-right: 198px;
-}
-
-@media screen and (max-width: 1393px) {
-
-  .character-class-link {
-      flex-direction: column;
-      margin-right: 198px;
 }
