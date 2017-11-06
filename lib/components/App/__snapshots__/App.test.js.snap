@@ -12,16 +12,12 @@ ShallowWrapper {
     className="app"
 >
     <Classroom />
-     :
-    <Login />
 </div>,
   "nodes": Array [
     <div
       className="app"
 >
       <Classroom />
-       :
-      <Login />
 </div>,
   ],
   "options": Object {},
@@ -62,16 +58,12 @@ ShallowWrapper {
           className="app"
 >
           <Classroom />
-           :
-          <Login />
 </div>,
         "_debugID": 4,
         "_renderedOutput": <div
           className="app"
 >
           <Classroom />
-           :
-          <Login />
 </div>,
       },
       "_renderedNodeType": 0,
