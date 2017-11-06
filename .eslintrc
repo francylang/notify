@@ -35,7 +35,8 @@
     "no-case-declarations": [0],
     "no-undef": [0],
     "no-console": [0],
-    "no-unused-vars": [0]
+    "no-unused-vars": [0],
+    "no-fallthrough": [0]
   },
   "globals": {
     "expect": true

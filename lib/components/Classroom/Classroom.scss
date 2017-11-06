@@ -9,7 +9,7 @@ $main-color-hover: #405780;
 }
 
 .teacher-name {
-  margin: 240px 0 18px 59px;
+  margin: 215px 0 18px 59px;
   color: #808080;
   font-size: 30px;
   font-weight: lighter;
@@ -42,7 +42,6 @@ option {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-
 }
 
 @media screen and (max-width: 320) {
@@ -67,10 +66,10 @@ option {
     font-size: 20px;
     margin: 211px 0 16px 105px;
   }
-
+}
 @media screen and (max-width: 720px) {
-
   .teacher-name {
     font-size: 20px;
     margin: 211px 0 16px 87px;
   }
+}
