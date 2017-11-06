@@ -3,8 +3,7 @@ $main-color-hover: #405780;
 
 .student-card {
   align-items: center;
-   text-align: center;
-   width: 140px;
+   width: 149px;
    position: relative;
    display: flex;
    justify-content: center;
@@ -21,6 +20,7 @@ $main-color-hover: #405780;
 .student-name {
   text-decoration: none;
   color: #888888;
+  text-align: center;
 }
 
 .student-name:hover {
@@ -41,10 +41,40 @@ $main-color-hover: #405780;
   right: 21px;
   cursor: pointer;
 }
-@media screen and (max-width: 500px) {
+
+
+@media screen and (max-width: 320px) {
   .student-card {
-    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 12px 0;
+    padding: 60px 10px;
+    box-shadow: 2px 1px 12px #888888;
+    }
+  }
+@media screen and (max-width: 650px) {
+  .student-card {
+    width: 62%;
     font-size: 40px;
     border-radius: 8%;
   }
+
+  .student-name {
+    font-size: 30px;
+  }
 }
+
+// @media screen and (max-width: 750px) {
+//   .student-card {
+//   }
+//
+// }
+
+// @media screen and (max-width: 815px) {
+//   .student-card {
+//     width: 138px;
+//   }
+// }

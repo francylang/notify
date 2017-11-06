@@ -32,7 +32,8 @@
     "id-length": "error",
     "id-blacklist": ["error", "data", "err", "e", "cb", "callback", "payload", "obj", "arr"],
     "max-depth": ["warn", 4],
-    "no-case-declarations": [0]
+    "no-case-declarations": [0],
+    "no-undef": [0]
   },
   "globals": {
     "expect": true

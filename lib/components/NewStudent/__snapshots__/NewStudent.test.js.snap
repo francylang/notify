@@ -20,18 +20,21 @@ ShallowWrapper {
         className="add-new-student-form"
     >
         <input
+            className="add-new-student-form-name"
             onChange={[Function]}
             placeholder="Student Name"
             type="text"
             value=""
         />
         <input
+            className="add-new-student-form-parent-contact"
             onChange={[Function]}
             placeholder="Parent Contact"
             type="text"
             value=""
         />
         <input
+            className="add-new-student-phone"
             onChange={[Function]}
             placeholder="phone"
             type="text"
@@ -58,18 +61,21 @@ ShallowWrapper {
             className="add-new-student-form"
       >
             <input
+                  className="add-new-student-form-name"
                   onChange={[Function]}
                   placeholder="Student Name"
                   type="text"
                   value=""
             />
             <input
+                  className="add-new-student-form-parent-contact"
                   onChange={[Function]}
                   placeholder="Parent Contact"
                   type="text"
                   value=""
             />
             <input
+                  className="add-new-student-phone"
                   onChange={[Function]}
                   placeholder="phone"
                   type="text"
@@ -156,18 +162,21 @@ ShallowWrapper {
                     className="add-new-student-form"
           >
                     <input
+                              className="add-new-student-form-name"
                               onChange={[Function]}
                               placeholder="Student Name"
                               type="text"
                               value=""
                     />
                     <input
+                              className="add-new-student-form-parent-contact"
                               onChange={[Function]}
                               placeholder="Parent Contact"
                               type="text"
                               value=""
                     />
                     <input
+                              className="add-new-student-phone"
                               onChange={[Function]}
                               placeholder="phone"
                               type="text"
@@ -194,18 +203,21 @@ ShallowWrapper {
                     className="add-new-student-form"
           >
                     <input
+                              className="add-new-student-form-name"
                               onChange={[Function]}
                               placeholder="Student Name"
                               type="text"
                               value=""
                     />
                     <input
+                              className="add-new-student-form-parent-contact"
                               onChange={[Function]}
                               placeholder="Parent Contact"
                               type="text"
                               value=""
                     />
                     <input
+                              className="add-new-student-phone"
                               onChange={[Function]}
                               placeholder="phone"
                               type="text"

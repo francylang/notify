@@ -2,10 +2,10 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  margin: 0px 0 0 75px; }
+  margin-left: 44px; }
 
 .teacher-name {
-  margin: 240px 0 18px 96px;
+  margin: 240px 0 18px 59px;
   color: #808080;
   font-size: 30px;
   font-weight: lighter; }
@@ -35,10 +35,20 @@ option {
   flex-direction: row;
   justify-content: space-between; }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 320) {
   .student-classroom {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; } }
+
+@media screen and (max-width: 650px) {
+  .student-classroom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
     margin: 0px 10px 0 10px; }
   .teacher-name {
-    margin: 211px 0 18px 45px;
-    font-weight: 600; } }
+    font-size: 20px;
+    margin: 211px 0 16px 87px; } }
