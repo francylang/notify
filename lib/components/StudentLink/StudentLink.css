@@ -1,11 +1,11 @@
 .student-card {
   align-items: center;
-  width: 149px;
+  width: 13%;
   position: relative;
   display: flex;
   justify-content: center;
   flex-direction: column;
-  margin: 12px;
+  margin: 14px;
   padding: 60px 10px;
   box-shadow: 2px 1px 12px #888888;
   border-radius: 8%; }
@@ -46,16 +46,10 @@
   .student-card {
     width: 62%;
     font-size: 40px;
-    border-radius: 8%;
-  }
-
+    border-radius: 8%; }
   .student-name {
-    font-size: 30px;
-  }
-}
+    font-size: 30px; } }
 
 @media screen and (max-width: 750px) {
   .student-card {
-    width: 260px; 
-  }
-}
+    width: 260px; } }
