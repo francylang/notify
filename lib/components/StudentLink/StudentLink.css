@@ -1,11 +1,11 @@
 .student-card {
   align-items: center;
-  width: 155px;
+  width: 13%;
   position: relative;
   display: flex;
   justify-content: center;
   flex-direction: column;
-  margin: 12px;
+  margin: 14px;
   padding: 60px 10px;
   box-shadow: 2px 1px 12px #888888;
   border-radius: 8%; }
