@@ -49,12 +49,15 @@ $main-color-hover: #405780;
 }
 
 .pop-up {
-  width: 500px;
-  top: 50%;
-  height: 500px;
-  background-color: red;
+  z-index: 101;
+  width: 382px;
+  top: 24%;
   position: fixed;
-  right: 46%
+  right: 36%;
+  font-size: 63px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 @media screen and (max-width: 500px) {
