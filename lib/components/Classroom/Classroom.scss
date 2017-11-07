@@ -1,15 +1,22 @@
 $main-color: #1a90bf ;
 $main-color-hover: #405780;
 
-.student-classroom {
+.student-classroom-container {
   display: flex;
+  width: 100%;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
 }
+.student-classroom {
+  width:95%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: left;
+}
 
 .teacher-name {
-  margin: 215px 0 18px 59px;
+  margin: 215px 0 18px 42px;
   color: #808080;
   font-size: 30px;
   font-weight: lighter;
