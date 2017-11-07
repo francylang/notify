@@ -48,6 +48,15 @@ $main-color-hover: #405780;
   outline: $main-color;
 }
 
+.pop-up {
+  width: 500px;
+  top: 50%;
+  height: 500px;
+  background-color: red;
+  position: fixed;
+  right: 46%
+}
+
 @media screen and (max-width: 500px) {
 
   .core-values-ctnr {
