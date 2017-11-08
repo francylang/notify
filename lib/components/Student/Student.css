@@ -37,7 +37,8 @@
   outline: #1a90bf; }
 
 .pop-up {
-  z-index: 101;
+  color: #888888;
+  z-index: 999;
   width: 382px;
   top: 24%;
   position: fixed;
@@ -45,7 +46,14 @@
   font-size: 63px;
   display: flex;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 5px;
+  padding: 30px;
+  margin: 40px 0 0;
+  box-shadow: 5px 10px 10px #bdbdbd; }
 
 @media screen and (max-width: 500px) {
   .core-values-ctnr {
