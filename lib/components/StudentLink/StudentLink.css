@@ -57,3 +57,8 @@
 @media screen and (max-width: 750px) {
   .student-card {
     width: 260px; } }
+
+@media screen and (min-width: 1900px) {
+  .student-card {
+    width: 202px;
+    padding: 80px 15px; } }
