@@ -1,8 +1,6 @@
 $main-color: #1a90bf ;
 $main-color-hover: #405780;
 
-
-
 .student-card {
   align-items: center;
   width: 179px;
@@ -45,7 +43,6 @@ $main-color-hover: #405780;
 .delete-student-btn:hover {
   fill: $main-color;
 }
-
 
 @media screen and (max-width: 320px) {
   .student-card {
