@@ -64,15 +64,15 @@
 
 @media screen and (max-width: 2000px) {
   .core-values-ctnr {
-    margin: 10px 0 0 25px; }
+    margin: 10px 0 0 65px; }
   .return-to {
     font-size: 25px; }
   .return-to:hover {
     font-size: 25px; }
   .student-name-header {
-    margin: 208px 0px 0 67px; }
+    margin: 208px 0px 0 103px; }
   .character-card {
-    padding: 41px 101px;
+    padding: 41px 91px;
     margin-bottom: 30px; }
   .character-card:hover {
     opacity: 1.5; }
@@ -88,4 +88,8 @@
     top: 18%;
     right: 35%; }
   .student-link-students {
-    margin-left: 60px; } }
+    margin-left: 103px; }
+  .student-classroom-container {
+    margin-left: 35px; }
+  .student-card {
+    padding: 80px 10px; } }
