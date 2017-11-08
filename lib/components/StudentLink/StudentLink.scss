@@ -5,7 +5,7 @@ $main-color-hover: #405780;
 
 .student-card {
   align-items: center;
-  width: 13%;
+  width: 179px;
   position: relative;
   display: flex;
   justify-content: center;
@@ -40,6 +40,10 @@ $main-color-hover: #405780;
   top: 10px;
   right: 21px;
   cursor: pointer;
+}
+
+.delete-student-btn:hover {
+  fill: $main-color;
 }
 
 
