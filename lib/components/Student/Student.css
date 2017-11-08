@@ -36,6 +36,19 @@
 .student-name-header:focus {
   outline: #1a90bf; }
 
+.pop-up {
+  color: #888888;
+  width: 382px;
+  top: 24%;
+  position: fixed;
+  right: 43px;
+  font-size: 43px;
+  padding: 30px;
+  transition: opacity .25s ease-in-out; }
+
+.fade {
+  display: none; }
+
 @media screen and (max-width: 500px) {
   .core-values-ctnr {
     flex-wrap: wrap;
