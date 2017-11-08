@@ -1,19 +1,17 @@
 $main-color: #1a90bf ;
 $main-color-hover: #405780;
 
-
-
 .student-card {
-   align-items: center;
-   width: 13%;
-   position: relative;
-   display: flex;
-   justify-content: center;
-   flex-direction: column;
-   margin: 14px;
-   padding: 60px 10px;
-   box-shadow: 2px 1px 12px #888888;
-   border-radius: 8%;
+  align-items: center;
+  width: 179px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 14px;
+  padding: 60px 10px;
+  box-shadow: 2px 1px 12px #888888;
+  border-radius: 8%;
 }
 
 .student-name {
@@ -42,6 +40,9 @@ $main-color-hover: #405780;
   cursor: pointer;
 }
 
+.delete-student-btn:hover {
+  fill: $main-color;
+}
 
 @media screen and (max-width: 320px) {
   .student-card {
