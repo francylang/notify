@@ -13,7 +13,7 @@
 
 .teacher-name {
   margin: 0 0 18px 55px;
-  color: #E3C574;
+  color: #9eadbd;
   font-size: 30px;
   font-weight: bolder; }
 
@@ -63,8 +63,9 @@ option {
   cursor: pointer; }
 
 .summary-button:hover {
-  background-color: #E3C574;
-  border: 1px solid #E3C574;
+  background-color: #1a90bf;
+  border: 1px solid #1a90bf;
+  color: #F4F4F4;
   cursor: pointer; }
 
 @media screen and (max-width: 320) {

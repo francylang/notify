@@ -18,7 +18,7 @@ $main-color-hover: #405780;
 
 .teacher-name {
   margin: 0 0 18px 55px;
-  color: #E3C574;
+  color: #9eadbd;
   font-size: 30px;
   font-weight: bolder
 }
@@ -75,8 +75,9 @@ option {
 }
 
 .summary-button:hover {
-  background-color: #E3C574;
-  border: 1px solid #E3C574;
+  background-color: $main-color;
+  border: 1px solid $main-color;
+  color: #F4F4F4;
   cursor: pointer;
 }
 
