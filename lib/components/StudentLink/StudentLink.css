@@ -57,3 +57,10 @@
 @media screen and (max-width: 750px) {
   .student-card {
     width: 260px; } }
+
+@media screen and (min-width: 1900px) {
+  .student-card {
+    width: 200px;
+    padding: 80px 10px; }
+  .teacher-name {
+    margin-left: 105px; } }

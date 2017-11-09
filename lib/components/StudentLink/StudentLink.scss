@@ -74,3 +74,15 @@ $main-color-hover: #405780;
     width: 260px;
   }
 }
+
+@media screen and (min-width: 1900px) {
+  .student-card {
+    width: 200px;
+    padding: 80px 10px;
+  }
+
+  .teacher-name {
+    margin-left: 105px
+  }
+
+}

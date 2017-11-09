@@ -73,7 +73,7 @@ header:focus {
   text-decoration: none;
   padding: 4px 10px;
   margin: 8px 0;
-  width: 165px;
+  width: 212px;
   border: 1px solid #F4F4F4;
   border-radius: 10px;
   cursor: pointer;
@@ -139,5 +139,16 @@ header:focus {
   .img-new-value,
   .img-new-student {
     display: none;
+  }
+}
+
+@media screen and (max-width: 2000px) {
+
+  .header-link {
+    margin-left: 75px;
+  }
+
+  .character-class-link {
+    margin-right: 109px
   }
 }
