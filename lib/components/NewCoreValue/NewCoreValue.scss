@@ -10,8 +10,8 @@ $main-color-hover: #405780;
   z-index: 100;
   transform: translate(-50%, -50%);
   background-color: #fff;
-  height: 170px;
-  width: 400px;
+  height: 270px;
+  width: 500px;
   border-radius: 5px;
   padding: 30px;
   margin: 40px 0 0;
@@ -21,6 +21,8 @@ $main-color-hover: #405780;
 .create-new-value {
   text-align: center;
   color: $main-color;
+  font-size: 35px;
+
 }
 
 .add-new-value-form input {
@@ -46,8 +48,8 @@ $main-color-hover: #405780;
   border: none;
   border-radius: 10px;
   color: #fff;
-  padding: 8px 20px;
-  font-size: 16px;
+  padding: 10px 20px;
+  font-size: 25px;
   margin: 20px 0;
   width: 100%;
   cursor: pointer;

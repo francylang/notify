@@ -8,8 +8,8 @@
   z-index: 100;
   transform: translate(-50%, -50%);
   background-color: #fff;
-  height: 170px;
-  width: 400px;
+  height: 270px;
+  width: 500px;
   border-radius: 5px;
   padding: 30px;
   margin: 40px 0 0;
@@ -17,7 +17,8 @@
 
 .create-new-value {
   text-align: center;
-  color: #1a90bf; }
+  color: #1a90bf;
+  font-size: 35px; }
 
 .add-new-value-form input {
   margin-top: 30px; }
@@ -40,8 +41,8 @@
   border: none;
   border-radius: 10px;
   color: #fff;
-  padding: 8px 20px;
-  font-size: 16px;
+  padding: 10px 20px;
+  font-size: 25px;
   margin: 20px 0;
   width: 100%;
   cursor: pointer; }

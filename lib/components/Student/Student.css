@@ -37,14 +37,14 @@
   outline: #1a90bf; }
 
 .pop-up {
-  color: #888888;
+  color: #F6A2B3;
   width: 382px;
   top: 24%;
   position: fixed;
   right: 43px;
   font-size: 43px;
   padding: 30px;
-  transition: opacity .25s ease-in-out; }
+  transition: opacity 5s ease-in-out; }
 
 .fade {
   display: none; }
@@ -77,7 +77,7 @@
   .character-card:hover {
     opacity: 1.5; }
   .no-opacity {
-    padding: 41px 101px;
+    padding: 41px 91px;
     margin-bottom: 30px; }
   .core-value {
     font-size: 45px; }
