@@ -14,11 +14,17 @@ $main-color-hover: #405780;
   border-radius: 8%;
 }
 
+.student-card:hover {
+  background-color: rgba(227, 197, 116, 0.99);
+}
+
 .student-name {
   text-decoration: none;
   color: #888888;
   text-align: center;
   font-size: 20px;
+  font-weight: bold;
+
 }
 
 .student-name:hover {
@@ -75,9 +81,9 @@ $main-color-hover: #405780;
   }
 }
 
-@media screen and (min-width: 1900px) {
+@media screen and (min-width: 1800px) {
   .student-card {
-    width: 200px;
+    width: 199px;
     padding: 80px 10px;
   }
 
@@ -85,4 +91,23 @@ $main-color-hover: #405780;
     margin-left: 105px
   }
 
+  .summary-button {
+    margin: 0px 118px 8px 0;
+    width: 223px;
+  }
+
+  .header-link {
+    margin-left: 80px;
+  }
+
+  .character-class-link {
+    margin-right: 121px;
+  }
+
+  .character-link,
+  .new-student-link,
+  .new-value-link,
+  .new-login-link {
+    width: 200px;
+  }
 }

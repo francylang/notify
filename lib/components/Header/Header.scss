@@ -142,13 +142,20 @@ header:focus {
   }
 }
 
-@media screen and (max-width: 2000px) {
+@media screen and (min-width: 2000px) {
 
-  .header-link {
-    margin-left: 75px;
-  }
-
-  .character-class-link {
-    margin-right: 109px
-  }
+  // .header-link {
+  //   margin-left: 65px;
+  // }
+  //
+  // .character-class-link {
+  //   margin-right: 128px;
+  // }
+  //
+  // .character-link,
+  // .new-student-link,
+  // .new-value-link,
+  // .new-login-link {
+  //   width: 200px;
+  // }
 }

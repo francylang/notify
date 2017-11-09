@@ -109,9 +109,3 @@ header:focus {
   .img-new-value,
   .img-new-student {
     display: none; } }
-
-@media screen and (max-width: 2000px) {
-  .header-link {
-    margin-left: 75px; }
-  .character-class-link {
-    margin-right: 109px; } }

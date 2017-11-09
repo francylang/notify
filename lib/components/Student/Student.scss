@@ -49,7 +49,7 @@ $main-color-hover: #405780;
 }
 
 .pop-up {
-  color: #F6A2B3;
+  color: #f26783;
   width: 382px;
   top: 24%;
   position: fixed;
@@ -83,7 +83,7 @@ $main-color-hover: #405780;
   }
 }
 
-@media screen and (max-width: 2000px) {
+@media screen and (min-width: 1800px) {
 
   .core-values-ctnr {
     margin: 10px 0 0 65px;
@@ -134,7 +134,7 @@ $main-color-hover: #405780;
   }
 
   .student-classroom-container {
-    margin-left: 35px;
+    margin-left: 87px;
   }
 
   .student-card {
