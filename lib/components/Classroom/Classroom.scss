@@ -10,7 +10,7 @@ $main-color-hover: #405780;
 }
 
 .student-classroom {
-  width:95%;
+  width:100%;
   display: flex;
   flex-wrap: wrap;
   align-items: left;
@@ -108,4 +108,21 @@ option {
     font-size: 20px;
     margin: 211px 0 16px 87px;
   }
+}
+
+@media screen and (max-width: 1900px) {
+  // .student-card {
+  //   width: 207px;
+  //   padding: 80px 10px;
+  // }
+  //
+  // .teacher-name {
+  //   margin-left: 105px
+  // }
+  //
+  // .summary-button {
+  //   margin: 0px 20px 8px 0;
+  //   width: 232px;
+  // }
+
 }
