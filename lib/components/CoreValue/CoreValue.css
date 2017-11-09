@@ -51,13 +51,19 @@
   background-color: #d35656; }
 
 .blue {
-  background-color: #405780; }
+  background-color: #3364FF; }
 
 .purple {
   background-color: #A46CC3; }
 
 .yellow {
   background-color: #ECAF4B; }
+
+.navy {
+  background-color: #405780; }
+
+.orange {
+  background-color: #FF9633; }
 
 @media screen and (max-width: 500px) {
   .character-card {

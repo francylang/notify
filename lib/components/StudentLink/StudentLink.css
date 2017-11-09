@@ -10,6 +10,9 @@
   box-shadow: 2px 1px 12px #888888;
   border-radius: 8%; }
 
+.student-card:hover {
+  background-color: rgba(227, 197, 116, 0.99); }
+
 .student-name {
   text-decoration: none;
   color: #888888;
