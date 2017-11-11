@@ -60,7 +60,12 @@ $main-color-hover: #405780;
     padding: 60px 10px;
     box-shadow: 2px 1px 12px #888888;
     }
+
+  .summary-button {
+    width: 214px;
+    padding: 9px 5px;
   }
+}
 
 @media screen and (max-width: 650px) {
   .student-card {
@@ -69,11 +74,13 @@ $main-color-hover: #405780;
     border-radius: 8%;
   }
 
-  .student-name {
+  .student-name,
+  .summary-button:hover {
     font-size: 30px;
   }
 
-  .summary-button {
+  .summary-button,
+  .summary-button:hover {
     margin: 10px 0;
     width: 300px;
     padding: 17px 0;
@@ -89,6 +96,13 @@ $main-color-hover: #405780;
 @media screen and (max-width: 1200px) {
   .student-card {
     width: 189px;
+    margin: 12px 19px;
+  }
+
+  .summary-button,
+  .summary-button:hover {
+    width: 217px;
+    margin: -7px 5px 8px 0;
   }
 }
 

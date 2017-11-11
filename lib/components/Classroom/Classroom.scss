@@ -82,6 +82,12 @@ option {
   cursor: pointer;
 }
 
+@media screen and (min-width: 320px) {
+  .student-classroom {
+    margin: 0;
+  }
+}
+
 @media screen and (max-width: 650px) {
   .student-classroom-container {
     margin: 0;
@@ -113,7 +119,7 @@ option {
   }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (min-width: 1200px) {
   .student-classroom {
     align-items: center;
     margin-left: 41px;

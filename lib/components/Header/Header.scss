@@ -142,3 +142,16 @@ header:focus {
     display: none;
   }
 }
+
+@media screen and (max-width: 1200px) {
+  .character-class-link {
+    margin-right: 42px;
+  }
+
+  .character-link,
+  .new-student-link,
+  .new-value-link,
+  .new-login-link {
+    width: 191px;
+  }
+}

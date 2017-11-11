@@ -53,9 +53,10 @@
   .core-values-ctnr {
     flex-wrap: wrap;
     align-items: center;
-    justify-content: center; }
+    justify-content: center;
+    margin: 0; }
   .student-link-students {
-    margin: 0 40px 0 55px; }
+    margin: 0 0 0 55px; }
   .student-name-header {
     margin: 243px 0px 0 0px;
     align-items: center;
