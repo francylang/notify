@@ -7,6 +7,7 @@ $main-color-hover: #405780;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  margin-left: 37px;
 }
 
 .student-classroom {
@@ -67,8 +68,8 @@ option {
   font-size: 18px;
   text-decoration: none;
   padding: 4px 10px;
-  margin: 0 95px 8px 0;
-  width: 212px;
+  margin: -13px 53px 8px 0;
+  width: 198px;
   border: 1px solid #F4F4F4;
   border-radius: 10px;
   cursor: pointer;
@@ -81,16 +82,11 @@ option {
   cursor: pointer;
 }
 
-@media screen and (max-width: 320) {
-  .student-classroom {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-}
-
 @media screen and (max-width: 650px) {
+  .student-classroom-container {
+    margin: 0;
+  }
+
   .student-classroom {
     display: flex;
     align-items: center;
@@ -99,31 +95,33 @@ option {
     margin: 0px 10px 0 10px;
   }
 
+  .teacher-and-summary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
   .teacher-name {
     font-size: 20px;
-    margin: 0 0 18px 55px;
+    margin: -21px 0 10px 0;
   }
 }
 @media screen and (max-width: 720px) {
   .teacher-name {
     font-size: 20px;
-    margin: 211px 0 16px 87px;
   }
 }
 
-@media screen and (max-width: 1900px) {
-  // .student-card {
-  //   width: 207px;
-  //   padding: 80px 10px;
-  // }
-  //
-  // .teacher-name {
-  //   margin-left: 105px
-  // }
-  //
-  // .summary-button {
-  //   margin: 0px 20px 8px 0;
-  //   width: 232px;
-  // }
+@media screen and (max-width: 1200px) {
+  .student-classroom {
+    align-items: center;
+    margin-left: 41px;
+  }
 
+  .student-classroom-container {
+    margin-left: 0;
+    align-items: center;
+    justify-content: center;
+  }
 }

@@ -24,7 +24,6 @@ $main-color-hover: #405780;
   text-align: center;
   font-size: 20px;
   font-weight: bold;
-
 }
 
 .student-name:hover {
@@ -73,11 +72,23 @@ $main-color-hover: #405780;
   .student-name {
     font-size: 30px;
   }
+
+  .summary-button {
+    margin: 10px 0;
+    width: 300px;
+    padding: 17px 0;
+  }
 }
 
 @media screen and (max-width: 750px) {
   .student-card {
-    width: 260px;
+    width: 280px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .student-card {
+    width: 189px;
   }
 }
 

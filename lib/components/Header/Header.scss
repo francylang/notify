@@ -73,7 +73,7 @@ header:focus {
   text-decoration: none;
   padding: 4px 10px;
   margin: 8px 0;
-  width: 212px;
+  width: 177px;
   border: 1px solid #F4F4F4;
   border-radius: 10px;
   cursor: pointer;
@@ -102,7 +102,14 @@ header:focus {
 @media screen and (max-width: 650px) {
 
   .header {
-    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .header-link {
+    width: 100%;
+    margin: 0;
   }
 
   .logo {
@@ -110,14 +117,8 @@ header:focus {
     height: 0;
   }
 
-  .header-link {
-    margin-top: 12px;
-  }
-
   .character-class-link {
-    display: flex;
-    padding: 0;
-    margin: 0 0 10px 0;
+    display: none;
   }
 
   .new-value-link {
@@ -140,22 +141,4 @@ header:focus {
   .img-new-student {
     display: none;
   }
-}
-
-@media screen and (min-width: 2000px) {
-
-  // .header-link {
-  //   margin-left: 65px;
-  // }
-  //
-  // .character-class-link {
-  //   margin-right: 128px;
-  // }
-  //
-  // .character-link,
-  // .new-student-link,
-  // .new-value-link,
-  // .new-login-link {
-  //   width: 200px;
-  // }
 }
