@@ -39,7 +39,8 @@
 .delete-student-btn:hover {
   fill: #1a90bf; }
 
-.indicator {
+.dots {
+  display: none;
   border: 2px solid red; }
 
 @media screen and (max-width: 320px) {
