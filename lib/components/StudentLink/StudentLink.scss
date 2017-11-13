@@ -51,9 +51,11 @@ $main-color-hover: #405780;
 
 .dots {
   display: none;
-  border: 2px solid red;
 }
 
+.indicator {
+  border: 2px solid red;
+}
 
 @media screen and (max-width: 320px) {
   .student-card {
