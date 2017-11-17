@@ -50,11 +50,13 @@ $main-color-hover: #405780;
 }
 
 .dots {
-  display: none;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .indicator {
-  border: 2px solid red;
+  // border: 2px solid red;
 }
 
 @media screen and (max-width: 320px) {
