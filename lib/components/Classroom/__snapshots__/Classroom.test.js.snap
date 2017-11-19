@@ -10,43 +10,63 @@ ShallowWrapper {
   "length": 1,
   "node": <div>
     <div
-        className="class-drop-down"
+        className="teacher-and-summary"
     >
         <h2
             className="teacher-name"
         >
             's Classroom
         </h2>
+        <button
+            className="summary-button"
+            onClick={[Function]}
+        >
+            Launch Summary Report
+        </button>
     </div>
     <div
-        className="student-classroom"
+        className="student-classroom-container"
     >
-        <StudentLink
-            deleteStudent={[Function]}
-            id={5}
-            name="Francy Lang"
-        />
+        <div
+            className="student-classroom"
+        >
+            <StudentLink
+                deleteStudent={[Function]}
+                id={5}
+                name="Francy Lang"
+            />
+        </div>
     </div>
 </div>,
   "nodes": Array [
     <div>
       <div
-            className="class-drop-down"
+            className="teacher-and-summary"
       >
             <h2
                   className="teacher-name"
             >
                   's Classroom
             </h2>
+            <button
+                  className="summary-button"
+                  onClick={[Function]}
+            >
+                  Launch Summary Report
+            </button>
       </div>
       <div
-            className="student-classroom"
+            className="student-classroom-container"
       >
-            <StudentLink
-                  deleteStudent={[Function]}
-                  id={5}
-                  name="Francy Lang"
-            />
+            <div
+                  className="student-classroom"
+            >
+                  <StudentLink
+                        deleteStudent={[Function]}
+                        id={5}
+                        name="Francy Lang"
+                  />
+            </div>
       </div>
 </div>,
   ],
@@ -106,43 +126,63 @@ ShallowWrapper {
       "_renderedComponent": NoopInternalComponent {
         "_currentElement": <div>
           <div
-                    className="class-drop-down"
+                    className="teacher-and-summary"
           >
                     <h2
                               className="teacher-name"
                     >
                               's Classroom
                     </h2>
+                    <button
+                              className="summary-button"
+                              onClick={[Function]}
+                    >
+                              Launch Summary Report
+                    </button>
           </div>
           <div
-                    className="student-classroom"
+                    className="student-classroom-container"
           >
-                    <StudentLink
-                              deleteStudent={[Function]}
-                              id={5}
-                              name="Francy Lang"
-                    />
+                    <div
+                              className="student-classroom"
+                    >
+                              <StudentLink
+                                        deleteStudent={[Function]}
+                                        id={5}
+                                        name="Francy Lang"
+                              />
+                    </div>
           </div>
 </div>,
         "_debugID": 4,
         "_renderedOutput": <div>
           <div
-                    className="class-drop-down"
+                    className="teacher-and-summary"
           >
                     <h2
                               className="teacher-name"
                     >
                               's Classroom
                     </h2>
+                    <button
+                              className="summary-button"
+                              onClick={[Function]}
+                    >
+                              Launch Summary Report
+                    </button>
           </div>
           <div
-                    className="student-classroom"
+                    className="student-classroom-container"
           >
-                    <StudentLink
-                              deleteStudent={[Function]}
-                              id={5}
-                              name="Francy Lang"
-                    />
+                    <div
+                              className="student-classroom"
+                    >
+                              <StudentLink
+                                        deleteStudent={[Function]}
+                                        id={5}
+                                        name="Francy Lang"
+                              />
+                    </div>
           </div>
 </div>,
       },
