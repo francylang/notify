@@ -66,16 +66,7 @@
   cursor: pointer; }
 
 .delete-student-btn:hover {
-  background-image: url("../../assets/error.svg");
-  background-size: contain;
-  background-position: center;
-  position: absolute;
-  right: 12px;
-  top: 8px;
-  margin-top: 5px;
-  width: 20px;
-  height: 20px;
-  cursor: pointer; }
+  background-image: url("../../assets/error.svg"); }
 
 @media screen and (max-width: 320px) {
   .student-card {

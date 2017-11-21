@@ -12,7 +12,6 @@ $main-color-hover: #405780;
   padding: 60px 10px;
   box-shadow: 2px 1px 12px #888888;
   border-radius: 8%;
-
 }
 
 .student-card:hover {
@@ -32,7 +31,6 @@ $main-color-hover: #405780;
   box-shadow: 2px 1px 12px #888888;
   // box-shadow: 2px 1px 12px $main-color-hover;
   border-radius: 8%;
-
 }
 
 .disabled-card:hover {
@@ -82,15 +80,6 @@ $main-color-hover: #405780;
 
 .delete-student-btn:hover {
   background-image: url('../../assets/error.svg');
-  background-size: contain;
-  background-position: center;
-  position: absolute;
-  right: 12px;
-  top: 8px;
-  margin-top: 5px;
-  width: 20px;
-  height: 20px;
-  cursor: pointer;
 }
 
 @media screen and (max-width: 320px) {
