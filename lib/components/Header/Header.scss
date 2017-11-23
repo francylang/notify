@@ -11,7 +11,7 @@ $main-color-hover: #405780;
   z-index: 100;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  // align-items: center;
 }
 
 .header-link {
@@ -49,14 +49,15 @@ header:focus {
 
 .character-class-link {
   display: flex;
-  flex-direction: column;
-  margin-right: 55px;
+  // flex-direction: column;
+  margin-top: 23px;
+  margin-right: 38px;
 }
 
 .img-new-student,
 .img-new-value,,
 .img-new-student {
-  padding-right: 10px;
+  padding: 10px;
   z-index: 100;
 }
 
@@ -67,25 +68,35 @@ header:focus {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: $main-color;
-  background-color: #F4F4F4;
+  color: #F4F4F4;
+  // background-color: #F4F4F4;
   font-size: 18px;
   text-decoration: none;
-  padding: 4px 10px;
-  margin: 8px 0;
-  width: 177px;
-  border: 1px solid #F4F4F4;
-  border-radius: 10px;
+  // padding: 4px 10px;
+  // margin: 8px 0;
+  margin: 8px 15px 8px 17px;
+  // width: 177px;
+  // border: 1px solid #F4F4F4;
+  // border-radius: 10px;
   cursor: pointer;
 }
 
-.character-link:hover,
-.new-student-link:hover,
-.new-value-link:hover,
-.new-login-link:hover {
-  background-color: #E3C574;
-  border: 1px solid #E3C574;
-  cursor: pointer;
+// .character-link:hover,
+// .new-student-link:hover,
+// .new-value-link:hover,
+// .new-login-link:hover {
+//   cursor: pointer;
+// }
+
+.underline {
+  padding: 5px;
+  border-bottom: $main-color 3px solid;
+}
+
+
+.underline:hover {
+  padding: 5px;
+  border-bottom: #E3C574 3px solid;
 }
 
 
