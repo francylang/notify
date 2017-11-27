@@ -11,8 +11,7 @@ $main-color-hover: #405780;
   margin: 14px;
   padding: 60px 10px;
   // box-shadow: 2px 1px 12px #888888;
-  // box-shadow: 2px 1px 12px #a9b7c6;
-  box-shadow: 0px 0px 25px #a9b7c6;
+  box-shadow: 0px 0px 10px #a9b7c6;
   border-radius: 8%;
   // border: 1px solid transparent;
 
@@ -38,14 +37,15 @@ $main-color-hover: #405780;
   // box-shadow: 2px 1px 12px #9eadbd;
   border-radius: 8%;
   // border: 1px solid transparent;
-  box-shadow: inset 0px 2px 25px #9eadbd
+  box-shadow: inset 0px 0px 6px #9eadbd;
+  opacity: 0.5;
 }
 
 .disabled-card:hover {
   background-color: rgba(227, 197, 116, 0.99);
   // border: 1px solid transparent;
-  box-shadow: inset 0px 2px 25px #9eadbd;
-  // opacity: 0.5;
+  // box-shadow: inset 0px 2px 25px #9eadbd;
+  // opacity: 0.75;
 }
 
 .student-name {
@@ -155,21 +155,31 @@ $main-color-hover: #405780;
     padding: 80px 10px;
   }
 
+  .disabled-card {
+    width: 199px;
+    padding: 80px 10px;
+  }
+
   .teacher-name {
     margin-left: 105px
   }
 
+  .summary-count {
+    margin-top: 25px;
+  }
+
   .summary-button {
-    margin: 0px 118px 8px 0;
-    width: 223px;
+    margin: 0px 101px 8px 0;
+    width: 214px;
+    padding: 14px 10px;
+  }
+
+  .launch-btn {
+    margin-right: 37px;
   }
 
   .header-link {
     margin-left: 80px;
-  }
-
-  .character-class-link {
-    margin-right: 121px;
   }
 
   .character-link,
