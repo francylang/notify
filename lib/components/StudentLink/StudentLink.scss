@@ -10,16 +10,22 @@ $main-color-hover: #405780;
   flex-direction: column;
   margin: 14px;
   padding: 60px 10px;
-  box-shadow: 2px 1px 12px #888888;
+  // box-shadow: 2px 1px 12px #888888;
+  // box-shadow: 2px 1px 12px #a9b7c6;
+  box-shadow: 0px 0px 25px #a9b7c6;
   border-radius: 8%;
+  // border: 1px solid transparent;
+
 }
 
 .student-card:hover {
   background-color: rgba(227, 197, 116, 0.99);
+  // box-shadow: inset 0px 2px 25px #9eadbd
+  // border: 1px solid transparent;
 }
 
 .disabled-card {
-  opacity: 0.7;
+  // opacity: 0.7;
   align-items: center;
   width: 179px;
   position: relative;
@@ -28,14 +34,18 @@ $main-color-hover: #405780;
   flex-direction: column;
   margin: 14px;
   padding: 60px 10px;
-  box-shadow: 2px 1px 12px #888888;
-  // box-shadow: 2px 1px 12px $main-color-hover;
+  // box-shadow: 2px 1px 12px #888888;
+  // box-shadow: 2px 1px 12px #9eadbd;
   border-radius: 8%;
+  // border: 1px solid transparent;
+  box-shadow: inset 0px 2px 25px #9eadbd
 }
 
 .disabled-card:hover {
   background-color: rgba(227, 197, 116, 0.99);
-  opacity: 0.5;
+  // border: 1px solid transparent;
+  box-shadow: inset 0px 2px 25px #9eadbd;
+  // opacity: 0.5;
 }
 
 .student-name {

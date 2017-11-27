@@ -7,14 +7,13 @@
   flex-direction: column;
   margin: 14px;
   padding: 60px 10px;
-  box-shadow: 2px 1px 12px #888888;
+  box-shadow: 0px 0px 25px #a9b7c6;
   border-radius: 8%; }
 
 .student-card:hover {
   background-color: rgba(227, 197, 116, 0.99); }
 
 .disabled-card {
-  opacity: 0.7;
   align-items: center;
   width: 179px;
   position: relative;
@@ -23,12 +22,12 @@
   flex-direction: column;
   margin: 14px;
   padding: 60px 10px;
-  box-shadow: 2px 1px 12px #888888;
-  border-radius: 8%; }
+  border-radius: 8%;
+  box-shadow: inset 0px 2px 25px #9eadbd; }
 
 .disabled-card:hover {
   background-color: rgba(227, 197, 116, 0.99);
-  opacity: 0.5; }
+  box-shadow: inset 0px 2px 25px #9eadbd; }
 
 .student-name {
   text-decoration: none;
