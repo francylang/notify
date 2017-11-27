@@ -59,28 +59,6 @@ option {
   margin-top: 225px;
 }
 
-.summary-button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: $main-color;
-  background-color: #F4F4F4;
-  font-size: 18px;
-  text-decoration: none;
-  padding: 4px 10px;
-  margin: -13px 53px 8px 0;
-  width: 198px;
-  border: 1px solid #F4F4F4;
-  border-radius: 10px;
-  cursor: pointer;
-}
-
-.summary-button:hover {
-  background-color: $main-color;
-  border: 1px solid $main-color;
-  color: #F4F4F4;
-  cursor: pointer;
-}
 
 @media screen and (min-width: 320px) {
   .student-classroom {
@@ -126,7 +104,6 @@ option {
   }
 
   .student-classroom-container {
-    margin-left: 0;
     align-items: center;
     justify-content: center;
   }

@@ -7,8 +7,7 @@
   height: 180px;
   z-index: 100;
   display: flex;
-  justify-content: space-between;
-  align-items: center; }
+  justify-content: space-between; }
 
 .header-link {
   text-decoration: none;
@@ -37,15 +36,26 @@ header:focus {
 .header-two:focus {
   outline-color: #1a90bf; }
 
-.character-class-link {
+.right-side-header {
   display: flex;
   flex-direction: column;
-  margin-right: 55px; }
+  height: 100%; }
+
+.summary-count {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  height: 20%; }
+
+.character-class-link {
+  display: flex;
+  margin-right: 34px;
+  height: 60%; }
 
 .img-new-student,
 .img-new-value,
 .img-new-student {
-  padding-right: 10px;
+  padding: 10px 5px 10px 10px;
   z-index: 100; }
 
 .character-link,
@@ -55,23 +65,39 @@ header:focus {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #1a90bf;
-  background-color: #F4F4F4;
+  color: #F4F4F4;
+  font-size: 18px;
+  text-decoration: none;
+  margin: 8px 15px 8px 17px;
+  cursor: pointer; }
+
+.underline {
+  padding: 5px;
+  border-bottom: #1a90bf 3px solid; }
+
+.underline:hover {
+  padding: 5px;
+  border-bottom: #E3C574 3px solid; }
+
+.summary-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #F4F4F4;
+  background-color: transparent;
   font-size: 18px;
   text-decoration: none;
   padding: 4px 10px;
-  margin: 8px 0;
-  width: 177px;
+  margin-right: 45px;
+  width: 198px;
   border: 1px solid #F4F4F4;
   border-radius: 10px;
   cursor: pointer; }
 
-.character-link:hover,
-.new-student-link:hover,
-.new-value-link:hover,
-.new-login-link:hover {
+.summary-button:hover {
   background-color: #E3C574;
   border: 1px solid #E3C574;
+  color: #F4F4F4;
   cursor: pointer; }
 
 @media screen and (max-width: 320px) {
