@@ -71,17 +71,20 @@
   .return-to:hover {
     font-size: 25px; }
   .student-name-header {
-    margin: 208px 0px 0 103px; }
+    margin: 220px 0 0 103px; }
   .character-card {
-    padding: 41px 91px;
+    padding: 40px 86px;
+    margin-bottom: 30px; }
+  .no-opacity {
+    padding: 40px 86px;
     margin-bottom: 30px; }
   .character-card:hover {
     opacity: 1.5; }
-  .no-opacity {
-    padding: 41px 91px;
+  .no-opacity:hover {
+    padding: 40px 86px;
     margin-bottom: 30px; }
   .core-value {
-    font-size: 45px; }
+    font-size: 42px; }
   .core-value-counter {
     font-size: 100px; }
   .pop-up {
