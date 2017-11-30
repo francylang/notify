@@ -132,19 +132,26 @@
     width: 199px;
     padding: 80px 10px; }
   .teacher-name {
-    margin-left: 105px; }
+    margin-left: 112px; }
   .summary-count {
-    margin-top: 25px; }
+    margin-top: 17px; }
+  .student-name {
+    font-size: 23px; }
   .summary-button {
-    margin: 0px 101px 8px 0;
-    width: 214px;
-    padding: 14px 10px; }
+    margin: 0px 112px 0 0;
+    width: 215px;
+    padding: 14px 10px;
+    font-size: 20px; }
   .launch-btn {
     margin-right: 37px; }
   .header-link {
-    margin-left: 80px; }
+    margin-left: 85px; }
+  .character-class-link {
+    margin-right: 49px;
+    font-size: 22px; }
   .character-link,
   .new-student-link,
   .new-value-link,
   .new-login-link {
-    width: 200px; } }
+    width: 225px;
+    font-size: 25px; } }
