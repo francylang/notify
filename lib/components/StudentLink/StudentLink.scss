@@ -68,7 +68,7 @@ $main-color-hover: #405780;
 }
 
 .delete-student-btn {
-  background-image: url('../../assets/close-circular-button-of-a-cross.svg');
+  background-image: url('../../assets/icon.svg');
   background-size: contain;
   background-position: center;
   position: absolute;
@@ -81,7 +81,7 @@ $main-color-hover: #405780;
 }
 
 .delete-student-btn:hover {
-  background-image: url('../../assets/error.svg');
+  background-image: url('../../assets/icon-hover.svg');
 }
 
 .indicator {
