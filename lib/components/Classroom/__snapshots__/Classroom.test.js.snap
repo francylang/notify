@@ -17,12 +17,6 @@ ShallowWrapper {
         >
             's Classroom
         </h2>
-        <button
-            className="summary-button"
-            onClick={[Function]}
-        >
-            Launch Summary Report
-        </button>
     </div>
     <div
         className="student-classroom-container"
@@ -32,8 +26,18 @@ ShallowWrapper {
         >
             <StudentLink
                 deleteStudent={[Function]}
-                id={5}
+                id={undefined}
                 name="Francy Lang"
+                studentInfo={
+                    Array [
+                        Object {
+                          "name": "Francy Lang",
+                          "parentContact": "Pam Lang",
+                          "phone": "5029052136",
+                        },
+                      ]
+                }
+                studentValue={undefined}
             />
         </div>
     </div>
@@ -48,12 +52,6 @@ ShallowWrapper {
             >
                   's Classroom
             </h2>
-            <button
-                  className="summary-button"
-                  onClick={[Function]}
-            >
-                  Launch Summary Report
-            </button>
       </div>
       <div
             className="student-classroom-container"
@@ -63,8 +61,18 @@ ShallowWrapper {
             >
                   <StudentLink
                         deleteStudent={[Function]}
-                        id={5}
+                        id={undefined}
                         name="Francy Lang"
+                        studentInfo={
+                              Array [
+                                    Object {
+                                      "name": "Francy Lang",
+                                      "parentContact": "Pam Lang",
+                                      "phone": "5029052136",
+                                    },
+                                  ]
+                        }
+                        studentValue={undefined}
                   />
             </div>
       </div>
@@ -80,7 +88,6 @@ ShallowWrapper {
         students={
                 Array [
                         Object {
-                          "id": 5,
                           "name": "Francy Lang",
                           "parentContact": "Pam Lang",
                           "phone": "5029052136",
@@ -97,7 +104,6 @@ ShallowWrapper {
         "props": Object {
           "students": Array [
             Object {
-              "id": 5,
               "name": "Francy Lang",
               "parentContact": "Pam Lang",
               "phone": "5029052136",
@@ -133,12 +139,6 @@ ShallowWrapper {
                     >
                               's Classroom
                     </h2>
-                    <button
-                              className="summary-button"
-                              onClick={[Function]}
-                    >
-                              Launch Summary Report
-                    </button>
           </div>
           <div
                     className="student-classroom-container"
@@ -148,8 +148,18 @@ ShallowWrapper {
                     >
                               <StudentLink
                                         deleteStudent={[Function]}
-                                        id={5}
+                                        id={undefined}
                                         name="Francy Lang"
+                                        studentInfo={
+                                                  Array [
+                                                            Object {
+                                                              "name": "Francy Lang",
+                                                              "parentContact": "Pam Lang",
+                                                              "phone": "5029052136",
+                                                            },
+                                                          ]
+                                        }
+                                        studentValue={undefined}
                               />
                     </div>
           </div>
@@ -164,12 +174,6 @@ ShallowWrapper {
                     >
                               's Classroom
                     </h2>
-                    <button
-                              className="summary-button"
-                              onClick={[Function]}
-                    >
-                              Launch Summary Report
-                    </button>
           </div>
           <div
                     className="student-classroom-container"
@@ -179,8 +183,18 @@ ShallowWrapper {
                     >
                               <StudentLink
                                         deleteStudent={[Function]}
-                                        id={5}
+                                        id={undefined}
                                         name="Francy Lang"
+                                        studentInfo={
+                                                  Array [
+                                                            Object {
+                                                              "name": "Francy Lang",
+                                                              "parentContact": "Pam Lang",
+                                                              "phone": "5029052136",
+                                                            },
+                                                          ]
+                                        }
+                                        studentValue={undefined}
                               />
                     </div>
           </div>
@@ -200,7 +214,6 @@ ShallowWrapper {
     students={
         Array [
             Object {
-              "id": 5,
               "name": "Francy Lang",
               "parentContact": "Pam Lang",
               "phone": "5029052136",

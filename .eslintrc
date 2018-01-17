@@ -34,7 +34,7 @@
     "max-depth": ["warn", 4],
     "no-case-declarations": [0],
     "no-undef": [0],
-    "no-fallthrough": [0]
+    "no-fallthrough": [0],
   },
   "globals": {
     "expect": true

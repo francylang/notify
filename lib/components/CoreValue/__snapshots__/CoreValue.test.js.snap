@@ -13,13 +13,13 @@ ShallowWrapper {
     onClick={[Function]}
 >
     <article
-        className="card"
+        className="card dot"
     >
         <h3
-            className="core-value"
+            className="core-value dot-core-value"
         />
         <h4
-            className="core-value-counter"
+            className="core-value-counter dot-counter"
         />
     </article>
 </div>,
@@ -29,13 +29,13 @@ ShallowWrapper {
       onClick={[Function]}
 >
       <article
-            className="card"
+            className="card dot"
       >
             <h3
-                  className="core-value"
+                  className="core-value dot-core-value"
             />
             <h4
-                  className="core-value-counter"
+                  className="core-value-counter dot-counter"
             />
       </article>
 </div>,
@@ -79,13 +79,13 @@ ShallowWrapper {
           onClick={[Function]}
 >
           <article
-                    className="card"
+                    className="card dot"
           >
                     <h3
-                              className="core-value"
+                              className="core-value dot-core-value"
                     />
                     <h4
-                              className="core-value-counter"
+                              className="core-value-counter dot-counter"
                     />
           </article>
 </div>,
@@ -95,13 +95,13 @@ ShallowWrapper {
           onClick={[Function]}
 >
           <article
-                    className="card"
+                    className="card dot"
           >
                     <h3
-                              className="core-value"
+                              className="core-value dot-core-value"
                     />
                     <h4
-                              className="core-value-counter"
+                              className="core-value-counter dot-counter"
                     />
           </article>
 </div>,
