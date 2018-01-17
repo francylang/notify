@@ -91,7 +91,8 @@
   height: 20px;
   width: 20px;
   border-radius: 100%;
-  margin: 5px; }
+  margin: 5px;
+  color: transparent; }
 
 .green {
   background-color: #688737; }
