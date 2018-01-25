@@ -100,6 +100,9 @@ $main-color-hover: #405780;
 }
 .count-color {
   display: flex;
+  position: absolute;
+  left: 18px;
+  bottom: 12px;
 }
 
 .each-count {
@@ -108,6 +111,7 @@ $main-color-hover: #405780;
   border-radius: 100%;
   margin: 5px;
   color: transparent;
+  cursor: pointer;
 }
 
 .green {
