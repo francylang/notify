@@ -1,8 +1,7 @@
 .values-classroom {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
-  margin: 10px 50px 47px 0px; }
+  flex-wrap: wrap; }
 
 .return-to-students {
   text-decoration: none; }
@@ -21,8 +20,7 @@
 
 .core-values-ctnr {
   display: flex;
-  flex-wrap: wrap;
-  margin: 34px 0 0 26px; }
+  flex-wrap: wrap; }
 
 .icon-left-arrow {
   margin-right: 10px; }
@@ -30,8 +28,7 @@
 .student-name-header {
   color: #888888;
   font-size: 50px;
-  font-weight: lighter;
-  margin: 243px 0px 0 55px; }
+  font-weight: lighter; }
 
 .student-name-header:focus {
   outline: #1a90bf; }
@@ -48,52 +45,3 @@
 
 .fade {
   display: none; }
-
-@media screen and (max-width: 500px) {
-  .core-values-ctnr {
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    margin: 0; }
-  .student-link-students {
-    margin: 0 0 0 55px; }
-  .student-name-header {
-    margin: 243px 0px 0 0px;
-    align-items: center;
-    justify-content: center;
-    display: flex; } }
-
-@media screen and (min-width: 1800px) {
-  .core-values-ctnr {
-    margin: 10px 0 0 65px; }
-  .return-to {
-    font-size: 25px; }
-  .return-to:hover {
-    font-size: 25px; }
-  .student-name-header {
-    margin: 220px 0 0 103px; }
-  .character-card {
-    padding: 40px 86px;
-    margin-bottom: 30px; }
-  .no-opacity {
-    padding: 40px 86px;
-    margin-bottom: 30px; }
-  .character-card:hover {
-    opacity: 1.5; }
-  .no-opacity:hover {
-    padding: 40px 86px;
-    margin-bottom: 30px; }
-  .core-value {
-    font-size: 42px; }
-  .core-value-counter {
-    font-size: 100px; }
-  .pop-up {
-    width: 382px;
-    top: 18%;
-    right: 35%; }
-  .student-link-students {
-    margin-left: 103px; }
-  .student-classroom-container {
-    margin-left: 87px; }
-  .student-card {
-    padding: 80px 10px; } }

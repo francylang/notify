@@ -3,15 +3,12 @@
   opacity: 0.5;
   align-items: center;
   text-align: center;
-  width: 137px;
   position: relative;
   display: flex;
+  width: 100%;
   justify-content: center;
   flex-direction: column;
-  margin: 10px 10px 40px 28px;
   padding: 38px 50px;
-  box-shadow: 2px 4px 12px #888888;
-  border-radius: 8%;
   cursor: pointer; }
 
 .no-opacity {
@@ -19,15 +16,12 @@
   opacity: 1.5;
   align-items: center;
   text-align: center;
-  width: 137px;
+  width: 100%;
   position: relative;
   display: flex;
   justify-content: center;
   flex-direction: column;
-  margin: 10px 10px 40px 28px;
   padding: 38px 50px;
-  box-shadow: 2px 4px 12px #888888;
-  border-radius: 8%;
   cursor: pointer; }
 
 .character-card:hover {
@@ -65,9 +59,14 @@
 .orange {
   background-color: #FF9633; }
 
-@media screen and (max-width: 500px) {
+@media only screen and (min-width: 880px) {
   .character-card {
-    margin: 29px 8px 40px 7px; }
+    box-shadow: 2px 4px 12px #888888;
+    border-radius: 8%;
+    width: 137px;
+    margin: 10px 10px 40px 28px; }
   .no-opacity {
-    width: 70%;
-    cursor: pointer; } }
+    box-shadow: 2px 4px 12px #888888;
+    border-radius: 8%;
+    width: 137px;
+    margin: 10px 10px 40px 28px; } }

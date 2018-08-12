@@ -1,82 +1,42 @@
-.student-classroom-container {
+.classroom-teacher {
+  color: #1a90bf;
+  font-weight: 700;
+  padding: 2rem; }
+
+.classroom-students {
   display: flex;
   width: 100%;
   flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  margin-left: 37px; }
+  align-items: flex-start; }
 
-.student-classroom {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: left; }
-
-.teacher-name {
-  margin: 0 0 18px 55px;
-  color: #9eadbd;
-  font-size: 30px;
-  font-weight: bolder; }
-
-.drop-down {
-  width: 20%;
-  background-color: transparent;
-  font-size: 20px;
-  font-weight: lighter;
-  margin: 212px 111px 16px 0px;
-  width: 348px;
-  color: #777;
-  font-weight: 300;
-  background-color: #fff;
-  box-shadow: 1px 2px 10px -2px rgba(0, 0, 0, 0.3);
-  border-radius: 3px;
-  transition: all 375ms ease-in-out; }
-
-option {
-  font-family: sans-serif; }
-
-.drop-down:focus {
-  outline-color: #1a90bf; }
-
-.class-drop-down {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between; }
-
-.teacher-and-summary {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 225px; }
-
-@media screen and (min-width: 320px) {
-  .student-classroom {
-    margin: 0; } }
-
-@media screen and (max-width: 650px) {
-  .student-classroom-container {
-    margin: 0; }
-  .student-classroom {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin: 0px 10px 0 10px; }
-  .teacher-and-summary {
-    display: flex;
-    flex-direction: column;
+@media only screen and (min-width: 820px) {
+  .classroom-students {
     align-items: center;
     justify-content: center; }
-  .teacher-name {
-    font-size: 20px;
-    margin: -21px 0 10px 0; } }
-
-@media screen and (max-width: 720px) {
-  .teacher-name {
-    font-size: 20px; } }
-
-@media screen and (min-width: 1200px) {
   .student-classroom {
-    align-items: center; }
-  .student-classroom-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    justify-content: center; } }
+    width: calc(100% - 4.8rem); }
+  .drop-down {
+    width: 20%;
+    background-color: transparent;
+    font-size: 20px;
+    font-weight: lighter;
+    margin: 212px 111px 16px 0px;
+    width: 348px;
+    color: #777;
+    font-weight: 300;
+    background-color: #fff;
+    box-shadow: 1px 2px 10px -2px rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+    transition: all 375ms ease-in-out; }
+  option {
+    font-family: sans-serif; }
+  .drop-down:focus {
+    outline-color: #1a90bf; }
+  .class-drop-down {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; } }

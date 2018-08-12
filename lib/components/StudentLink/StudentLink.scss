@@ -2,43 +2,23 @@ $main-color: #1a90bf ;
 $main-color-hover: #405780;
 
 .student-card {
-  align-items: center;
-  width: 179px;
-  height: 50px;
-  position: relative;
+  width: 100%;
+  height: auto;
   display: flex;
-  justify-content: center;
   flex-direction: column;
-  margin: 14px;
-  padding: 60px 10px;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-  box-shadow: 0px 1px 5px 0px #676767;
-  box-shadow: 2px 4px 12px 0px #888888;
-  border-radius: 8%;
-}
-
-.student-card:hover {
-  background-color: rgba(227, 197, 116, 0.99);
-}
-
-.disabled-card {
-  align-items: center;
-  width: 179px;
+  align-items: flex-start;
   position: relative;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  margin: 14px;
-  padding: 60px 10px;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-  box-shadow: 0px 1px 5px 0px #676767;
-  box-shadow: 2px 4px 12px 0px #888888;
-  border-radius: 8%;
-}
+  padding: 1rem 2rem;
+  border-bottom: 0.05rem solid gainsboro;
 
-.disabled-card:hover {
-  background-color: rgba(227, 197, 116, 0.99);
+  &:first-child {
+    border-top: 0.05rem solid gainsboro;
+  }
 
+  &:hover {
+    background-color: rgba(227, 197, 116, 0.99);
+    border-color: rgba(227, 197, 116, 0.99);
+  }
 }
 
 .student-name {
@@ -50,204 +30,139 @@ $main-color-hover: #405780;
   opacity: 0.9;
 }
 
-.student-name:hover {
-  font-weight: bold;
-  opacity: 0.9;
-}
-
-.student-name:focus {
-  outline-color: $main-color;
-}
-
-.disabled-name {
-  color: #888888;
-  text-decoration: none;
-  text-align: center;
-  font-size: 20px;
-  font-weight: bold;
-  opacity: 0.9;
-}
-
-.delete-student-btn {
-  background-image: url('../../assets/icon.svg');
-  background-size: contain;
-  background-position: center;
-  position: absolute;
-  right: 12px;
-  top: 8px;
-  margin-top: 5px;
-  width: 20px;
-  height: 20px;
-  cursor: pointer;
-}
-
-.delete-student-btn:hover {
-  background-image: url('../../assets/icon-hover.svg');
-}
-
-.indicator {
-  background-image: url('../../assets/checked.svg');
-  background-size: contain;
-  background-position: center;
-  font-family: 'Covered By Your Grace', cursive;
-  position: absolute;
-  left: 18px;
-  bottom: 12px;
-  margin-top: 5px;
-  width: 20px;
-  height: 20px;
-  cursor: pointer;
-}
-.count-color {
-  display: flex;
-  position: absolute;
-  left: 18px;
-  bottom: 12px;
-}
-
-.each-count {
-  height: 20px;
-  width: 20px;
-  border-radius: 100%;
-  margin: 5px;
-  color: transparent;
-  cursor: pointer;
-}
-
-.green {
-  background-color: #688737;
-}
-
-.red {
-  background-color: #d35656;
-}
-
-.blue {
-  background-color: #3364FF;
-}
-
-.purple {
-  background-color: #A46CC3;
-}
-
-.yellow {
-  background-color: #ECAF4B;
-}
-
-.navy {
-  background-color: #405780;
-}
-
-.orange {
-  background-color: #FF9633;
-}
-
-
-@media screen and (max-width: 320px) {
+@media only screen and (min-width: 880px) {
   .student-card {
-    position: relative;
-    display: flex;
-    justify-content: center;
     align-items: center;
-    flex-direction: column;
-    margin: 12px 0;
+    width: 179px;
+    height: 50px;
+    justify-content: center;
     padding: 60px 10px;
-    box-shadow: 2px 1px 12px #888888;
-    }
-
-  .summary-button {
-    width: 214px;
-    padding: 9px 5px;
-  }
-}
-
-@media screen and (max-width: 650px) {
-  .student-card {
-    width: 62%;
-    font-size: 40px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    box-shadow: 0px 1px 5px 0px #676767;
+    box-shadow: 2px 4px 12px 0px #888888;
     border-radius: 8%;
-  }
+    margin: 2rem;
 
-  .student-name,
-  .summary-button:hover {
-    font-size: 30px;
-  }
-
-  .summary-button,
-  .summary-button:hover {
-    margin: 10px 0;
-    width: 300px;
-    padding: 17px 0;
-  }
-}
-
-@media screen and (max-width: 750px) {
-  .student-card {
-    width: 280px;
-  }
-}
-
-@media screen and (max-width: 1200px) {
-  .student-card {
-    width: 189px;
-    margin: 12px 19px;
-  }
-
-  .summary-button,
-  .summary-button:hover {
-    width: 217px;
-    margin: -7px 5px 8px 0;
-  }
-}
-
-@media screen and (min-width: 1800px) {
-  .student-card {
-    width: 199px;
-    padding: 80px 10px;
   }
 
   .disabled-card {
-    width: 199px;
-    padding: 80px 10px;
+    align-items: center;
+    width: 179px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 14px;
+    padding: 60px 10px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    box-shadow: 0px 1px 5px 0px #676767;
+    box-shadow: 2px 4px 12px 0px #888888;
+    border-radius: 8%;
   }
 
-  .teacher-name {
-    margin-left: 112px
-  }
+  .disabled-card:hover {
+    background-color: rgba(227, 197, 116, 0.99);
 
-  .summary-count {
-    margin-top: 17px;
   }
 
   .student-name {
-    font-size: 23px;
-  }
-
-  .summary-button {
-    margin: 0px 112px 0 0;
-    width: 215px;
-    padding: 14px 10px;
+    text-decoration: none;
+    color: #888888;
+    text-align: center;
     font-size: 20px;
+    font-weight: bold;
+    opacity: 0.9;
   }
 
-  .launch-btn {
-    margin-right: 37px;
+  .student-name:hover {
+    font-weight: bold;
+    opacity: 0.9;
   }
 
-  .header-link {
-    margin-left: 85px;
+  .student-name:focus {
+    outline-color: $main-color;
   }
 
-  .character-class-link {
-    margin-right: 49px;
-    font-size: 22px;
+  .disabled-name {
+    color: #888888;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    opacity: 0.9;
   }
 
-  .character-link,
-  .new-student-link,
-  .new-value-link,
-  .new-login-link {
-    width: 225px;
-    font-size: 25px;
+  .delete-student-btn {
+    background-image: url('../../assets/icon.svg');
+    background-size: contain;
+    background-position: center;
+    position: absolute;
+    right: 12px;
+    top: 8px;
+    margin-top: 5px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+  }
+
+  .delete-student-btn:hover {
+    background-image: url('../../assets/icon-hover.svg');
+  }
+
+  .indicator {
+    background-image: url('../../assets/checked.svg');
+    background-size: contain;
+    background-position: center;
+    font-family: 'Covered By Your Grace', cursive;
+    position: absolute;
+    left: 18px;
+    bottom: 12px;
+    margin-top: 5px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+  }
+  .count-color {
+    display: flex;
+    position: absolute;
+    left: 18px;
+    bottom: 12px;
+  }
+
+  .each-count {
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    margin: 5px;
+    color: transparent;
+    cursor: pointer;
+  }
+
+  .green {
+    background-color: #688737;
+  }
+
+  .red {
+    background-color: #d35656;
+  }
+
+  .blue {
+    background-color: #3364FF;
+  }
+
+  .purple {
+    background-color: #A46CC3;
+  }
+
+  .yellow {
+    background-color: #ECAF4B;
+  }
+
+  .navy {
+    background-color: #405780;
+  }
+
+  .orange {
+    background-color: #FF9633;
   }
 }

@@ -1,147 +1,103 @@
 .header {
   display: flex;
   background-color: #1a90bf;
-  position: fixed;
+  flex-direction: column;
+  align-items: center;
+  position: sticky;
   top: 0;
   width: 100%;
-  height: 180px;
-  z-index: 100;
+  z-index: 100; }
+  .header:focus {
+    outline-color: #1a90bf; }
+
+.header-leftSide {
+  width: 100%; }
+
+.header-rightSide {
   display: flex;
-  justify-content: space-between; }
-
-.header-link {
-  text-decoration: none;
-  width: 50%;
-  height: 100%;
-  margin-left: 30px;
-  background-image: url("http://localhost:8080/lib/assets/notify1.svg");
-  background-repeat: no-repeat;
-  z-index: 11; }
-
-.header-home {
-  width: 50%; }
-
-header:focus {
-  outline-color: #1a90bf; }
-
-.main-icon {
-  margin-right: 20px; }
-
-.header-one,
-.header-two {
-  text-decoration: none;
-  font-weight: lighter; }
-
-.header-one:focus,
-.header-two:focus {
-  outline-color: #1a90bf; }
-
-.right-side-header {
-  display: flex;
+  color: black;
   flex-direction: column;
-  height: 100%; }
+  width: 100%;
+  background-color: #FFFFFF;
+  box-shadow: 5px 10px 25px #888888; }
 
-.summary-count {
+.header-links {
   display: flex;
-  align-items: flex-end;
-  justify-content: flex-end;
-  height: 20%; }
+  justify-content: space-around;
+  padding: 1rem 0; }
 
-.character-class-link {
-  display: flex;
-  margin-right: 34px;
-  height: 60%; }
+.header-links-summary {
+  justify-content: space-around;
+  padding-bottom: 1rem; }
 
 .img-new-student,
 .img-new-value,
 .img-new-student {
-  padding: 10px 5px 10px 10px;
-  z-index: 100; }
+  display: none; }
 
 .character-link,
-.new-student-link,
-.new-value-link,
-.new-login-link {
+.header-links-newStudent,
+.header-links-newValue,
+.header-links-login {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #F4F4F4;
+  color: #888888;
   font-size: 18px;
   text-decoration: none;
-  margin: 8px 15px 8px 17px;
   cursor: pointer; }
 
 .underline {
   padding: 5px;
-  border-bottom: #1a90bf 3px solid; }
+  border-bottom: transparent 3px solid; }
 
 .underline:hover {
   padding: 5px;
   border-bottom: #E3C574 3px solid; }
 
-.summary-button {
+.header-links-summary-button {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #F4F4F4;
+  color: #888888;
   background-color: transparent;
   font-size: 18px;
   text-decoration: none;
   padding: 4px 10px;
-  margin-right: 45px;
   width: 198px;
-  border: 1px solid #F4F4F4;
+  border: 1px solid #888888;
   border-radius: 10px;
   cursor: pointer; }
 
-.summary-button:hover {
+.header-links-summary-button:hover {
   background-color: #E3C574;
   border: 1px solid #E3C574;
   color: #F4F4F4;
   cursor: pointer; }
 
-@media screen and (max-width: 320px) {
-  .character-link,
-  .new-student-link,
-  .new-value-link,
-  .new-login-link {
-    width: 238px;
-    cursor: pointer; } }
+.header-links-summary {
+  display: flex; }
 
-@media screen and (max-width: 650px) {
-  .header {
-    display: flex;
-    align-items: center;
-    justify-content: center; }
-  .header-link {
-    width: 100%;
-    margin: 0; }
+@media only screen and (min-width: 820px) {
   .logo {
-    width: 0;
-    height: 0; }
-  .character-class-link {
-    display: none; }
-  .new-value-link {
-    margin-left: -16px; }
-  .character-link,
-  .new-student-link,
-  .new-value-link,
-  .new-login-link {
-    font-size: 14px;
-    width: 238px;
-    cursor: pointer;
-    align-items: center;
-    margin: 4px;
-    padding: 2px; }
+    height: 10rem; }
+  .img-new-student,
   .img-new-value,
   .img-new-student {
-    display: none; } }
+    display: block; }
+  .header-leftSide {
+    width: 100%; } }
 
-@media screen and (max-width: 1200px) {
-  .character-class-link {
-    margin-right: 42px; }
-  .character-link,
-  .new-student-link,
-  .new-value-link,
-  .new-login-link {
-    width: 191px; } }
+@media only screen and (min-width: 1200px) {
+  .header {
+    flex-direction: row; }
+  .header-rightSide {
+    background: #1a90bf;
+    box-shadow: none;
+    padding-right: 2rem; }
+  .header-links {
+    justify-content: flex-end; }
+  .header-links-summary {
+    justify-content: flex-end; }
+  .header-links-summary-button {
+    margin-left: 1rem; } }
