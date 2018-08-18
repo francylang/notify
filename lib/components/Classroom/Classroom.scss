@@ -11,22 +11,21 @@ $main-color-hover: #405780;
   display: flex;
   width: 100%;
   flex-wrap: wrap;
-  align-items: flex-start;
 }
 
 
 @media only screen and (min-width: 820px) {
-  .classroom-students {
-    align-items: center;
-    justify-content: center;
+  .classroom {
+    padding: 0 3rem;
   }
 
-  .student-classroom {
-    width:100%;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    width: calc(100% - 4.8rem);
+  .classroom-students {
+    width: auto;
+    margin-left: -1rem;
+  }
+
+  .classroom-teacher {
+    padding: 2rem 0 1rem;
   }
 
   .drop-down {

@@ -8,7 +8,6 @@ $main-color-hover: #405780;
   align-items: center;
   position: sticky;
   top: 0;
-  width: 100%;
   z-index: 100;
 
   &:focus {
@@ -22,7 +21,6 @@ $main-color-hover: #405780;
 
 .header-rightSide {
   display: flex;
-  color: black;
   flex-direction: column;
   width: 100%;
   background-color: #FFFFFF;
@@ -30,16 +28,25 @@ $main-color-hover: #405780;
 }
 
 .header-links {
-  display: flex;
-  justify-content: space-around;
-  padding: 1rem 0;
+  visibility: hidden;
 }
 
+.header-links-hamburger {
+  cursor: pointer;
+  padding: 0.2rem 1.8rem;
+  text-align: right;
+  visibility: visible;
+
+  img {
+    vertical-align: middle;
+    width: 10%;
+  }
+}
+
+.header-links-withIcons,
 .header-links-summary {
-  justify-content: space-around;
-  padding-bottom: 1rem;
+  height: 0;
 }
-
 
 .img-new-student,
 .img-new-value,,
@@ -47,7 +54,6 @@ $main-color-hover: #405780;
   display: none;
 }
 
-.character-link,
 .header-links-newStudent,
 .header-links-newValue,
 .header-links-login {
@@ -79,10 +85,10 @@ $main-color-hover: #405780;
   background-color: transparent;
   font-size: 18px;
   text-decoration: none;
-  padding: 4px 10px;
-  width: 198px;
+  padding: 0.6rem;
+  width: 40%;
   border: 1px solid #888888;
-  border-radius: 10px;
+  border-radius: 1.5rem;
   cursor: pointer;
 }
 
@@ -97,7 +103,40 @@ $main-color-hover: #405780;
   display: flex;
 }
 
+@media only screen and (min-width: 550px) {
+  .header-links {
+    visibility: visible;
+  }
+
+  .header-links-hamburger {
+    display: none;
+  }
+
+  .header-links-withIcons,
+  .header-links-summary {
+    height: auto;
+  }
+
+  .header-links-withIcons {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 0;
+  }
+
+  .header-links-summary {
+    justify-content: space-around;
+    padding-bottom: 1rem;
+  }
+}
+
+
 @media only screen and (min-width: 820px) {
+  .header {
+    box-shadow: 5px 10px 25px #888888;
+    padding: 2rem;
+    flex-direction: row;
+  }
+
   .logo {
     height: 10rem;
   }
@@ -108,31 +147,39 @@ $main-color-hover: #405780;
     display: block;
   }
 
-  .header-leftSide {
-    width: 100%;
+  .header-rightSide {
+    background-color: $main-color;
+    box-shadow: none;
+  }
+
+  .header-links {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header-links-newStudent,
+  .header-links-newValue,
+  .header-links-login {
+    color: #F4F4F4;
+  }
+
+  .header-links-summary-button {
+    border: 1px solid #F4F4F4;
+    color: #F4F4F4;
+  }
+
+  .header-links-withIcons,
+  .header-links-summary {
+    justify-content: space-between;
   }
 }
 
 @media only screen and (min-width: 1200px) {
-  .header {
-    flex-direction: row;
+  .header-leftSide {
+    width: 60%;
   }
 
   .header-rightSide {
-    background: $main-color;
-    box-shadow: none;
-    padding-right: 2rem;
-  }
-
-  .header-links {
-    justify-content: flex-end;
-  }
-
-  .header-links-summary {
-    justify-content: flex-end;
-  }
-
-  .header-links-summary-button {
-    margin-left: 1rem;
+    width: 40%;
   }
 }

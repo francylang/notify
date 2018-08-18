@@ -1,7 +1,7 @@
 $main-color: #1a90bf ;
 $main-color-hover: #405780;
 
-.character-card {
+.coreValue-card {
   background-color: $main-color;
   opacity: 0.5;
   align-items: center;
@@ -30,7 +30,7 @@ $main-color-hover: #405780;
   cursor: pointer;
 }
 
-.character-card:hover {
+.coreValue-card:hover {
   opacity: 1.5;
 }
 
@@ -76,11 +76,11 @@ $main-color-hover: #405780;
 }
 
 @media only screen and (min-width: 880px) {
-  .character-card {
+  .coreValue-card {
     box-shadow: 2px 4px 12px #888888;
     border-radius: 8%;
     width: 137px;
-    margin: 10px 10px 40px 28px;
+    margin: 2rem;
   }
 
   .no-opacity {

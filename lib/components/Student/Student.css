@@ -1,4 +1,4 @@
-.values-classroom {
+.studentValues-return {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap; }
@@ -15,22 +15,21 @@
 .student-link-students {
   display: flex;
   text-decoration: none;
-  color: #888888;
-  margin: 0 40px 0 45px; }
+  color: #888888; }
 
-.core-values-ctnr {
+.studentValues-cards {
   display: flex;
   flex-wrap: wrap; }
 
 .icon-left-arrow {
   margin-right: 10px; }
 
-.student-name-header {
+.studentValues-name {
   color: #888888;
   font-size: 50px;
   font-weight: lighter; }
 
-.student-name-header:focus {
+.studentValues-name:focus {
   outline: #1a90bf; }
 
 .pop-up {
@@ -45,3 +44,9 @@
 
 .fade {
   display: none; }
+
+@media only screen and (min-width: 880px) {
+  .studentValues {
+    padding: 3rem; }
+  .studentValues-cards {
+    margin-left: -2rem; } }

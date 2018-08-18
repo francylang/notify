@@ -1,4 +1,4 @@
-.character-card {
+.coreValue-card {
   background-color: #1a90bf;
   opacity: 0.5;
   align-items: center;
@@ -24,7 +24,7 @@
   padding: 38px 50px;
   cursor: pointer; }
 
-.character-card:hover {
+.coreValue-card:hover {
   opacity: 1.5; }
 
 .core-value {
@@ -60,11 +60,11 @@
   background-color: #FF9633; }
 
 @media only screen and (min-width: 880px) {
-  .character-card {
+  .coreValue-card {
     box-shadow: 2px 4px 12px #888888;
     border-radius: 8%;
     width: 137px;
-    margin: 10px 10px 40px 28px; }
+    margin: 2rem; }
   .no-opacity {
     box-shadow: 2px 4px 12px #888888;
     border-radius: 8%;
